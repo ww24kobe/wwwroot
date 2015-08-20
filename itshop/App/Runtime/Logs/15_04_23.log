@@ -1,0 +1,657 @@
+[ 2015-04-23T21:57:51+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-04-23T21:57:51+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-04-23T21:57:51+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-04-23T21:57:54+08:00 ] 127.0.0.1 /index.php/admin/index/goodsList.html
+ERR: 非法操作:goodslist
+
+[ 2015-04-23T21:58:09+08:00 ] 127.0.0.1 /index.php/admin/attribute/ajaxGetAttrs/id/3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004286s ]
+SQL: SELECT it_attribute.*,b.type_name FROM `it_attribute` LEFT JOIN it_goods_type b on it_attribute.type_id=b.id WHERE ( type_id=3 )  [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000717s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000781s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000498s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003236s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001435s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001600s ]
+
+[ 2015-04-23T21:58:10+08:00 ] 127.0.0.1 /index.php/admin/attribute/ajaxGetAttrs/id/5
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.005246s ]
+SQL: SELECT it_attribute.*,b.type_name FROM `it_attribute` LEFT JOIN it_goods_type b on it_attribute.type_id=b.id WHERE ( type_id=5 )  [ RunTime:0.001476s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007586s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000356s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000530s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-04-23T21:58:12+08:00 ] 127.0.0.1 /index.php/admin/attribute/ajaxGetAttrs/id/8
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.005300s ]
+SQL: SELECT it_attribute.*,b.type_name FROM `it_attribute` LEFT JOIN it_goods_type b on it_attribute.type_id=b.id WHERE ( type_id=8 )  [ RunTime:0.001290s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008633s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000397s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000331s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001577s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2015-04-23T21:58:13+08:00 ] 127.0.0.1 /index.php/admin/index/goodsTrash.html
+ERR: 非法操作:goodstrash
+
+[ 2015-04-23T21:58:14+08:00 ] 127.0.0.1 /index.php/admin/index/brandList.html
+ERR: 非法操作:brandlist
+
+[ 2015-04-23T21:58:35+08:00 ] 127.0.0.1 /index.php/admin/index/goodsList.html
+ERR: 非法操作:goodslist
+
+[ 2015-04-23T21:58:38+08:00 ] 127.0.0.1 /index.php/admin/index/goodsList.html
+ERR: 非法操作:goodslist
+
+[ 2015-04-23T21:58:39+08:00 ] 127.0.0.1 /index.php/admin/index/goodsList.html
+ERR: 非法操作:goodslist
+
+[ 2015-04-23T21:58:44+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+
+[ 2015-04-23T21:58:46+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+
+[ 2015-04-23T21:58:48+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+
+[ 2015-04-23T21:59:08+08:00 ] 127.0.0.1 /index.php/admin/index/goodsList.html
+ERR: 非法操作:goodslist
+
+[ 2015-04-23T21:59:17+08:00 ] 127.0.0.1 /index.php/admin/Goods/goodsEdit?goods_id=%3C%3E
+ERR: 非法操作:goodsedit
+
+[ 2015-04-23T21:59:52+08:00 ] 127.0.0.1 /index.php/admin/attribute/ajaxGetAttrs/id/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004475s ]
+SQL: SELECT it_attribute.*,b.type_name FROM `it_attribute` LEFT JOIN it_goods_type b on it_attribute.type_id=b.id WHERE (  1 )  [ RunTime:0.001141s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010634s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000573s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000469s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002043s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2015-04-23T21:59:57+08:00 ] 127.0.0.1 /index.php/admin/attribute/ajaxGetAttrs/id/4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.003981s ]
+SQL: SELECT it_attribute.*,b.type_name FROM `it_attribute` LEFT JOIN it_goods_type b on it_attribute.type_id=b.id WHERE ( type_id=4 )  [ RunTime:0.001228s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007558s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000402s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000331s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001506s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000530s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-04-23T21:59:58+08:00 ] 127.0.0.1 /index.php/admin/attribute/ajaxGetAttrs/id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.003931s ]
+SQL: SELECT it_attribute.*,b.type_name FROM `it_attribute` LEFT JOIN it_goods_type b on it_attribute.type_id=b.id WHERE ( type_id=1 )  [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012190s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000740s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000444s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001986s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2015-04-23T22:07:18+08:00 ] 127.0.0.1 /index.php/admin/category/edit/id/6
+ERR: 非法操作:edit
+
+[ 2015-04-23T22:11:45+08:00 ] 127.0.0.1 /index.php/admin/index/goodsList.html
+ERR: 非法操作:goodslist
+
+[ 2015-04-23T22:11:55+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-04-23T22:20:00+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+
+[ 2015-04-23T22:20:01+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+
+[ 2015-04-23T22:35:42+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+
+[ 2015-04-23T22:35:44+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+
+[ 2015-04-23T23:30:39+08:00 ] 127.0.0.1 /index.php/admin/attribute/ajaxGetAttrs/id/3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.003947s ]
+SQL: SELECT it_attribute.*,b.type_name FROM `it_attribute` LEFT JOIN it_goods_type b on it_attribute.type_id=b.id WHERE ( type_id=3 )  [ RunTime:0.001185s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042038s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000672s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000618s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002487s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2015-04-23T23:30:41+08:00 ] 127.0.0.1 /index.php/admin/attribute/ajaxGetAttrs/id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004147s ]
+SQL: SELECT it_attribute.*,b.type_name FROM `it_attribute` LEFT JOIN it_goods_type b on it_attribute.type_id=b.id WHERE ( type_id=1 )  [ RunTime:0.001341s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011397s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000739s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000532s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002461s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2015-04-23T23:30:50+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:30:50+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:30:50+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:31:11+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+
+[ 2015-04-23T23:31:18+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+
+[ 2015-04-23T23:40:43+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.003809s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:40:51+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.003887s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:40:53+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004822s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:40:54+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.006625s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:40:55+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/%E9%80%89%E6%8B%A9%E5%95%86%E5%93%81%E7%B1%BB%E5%9E%8B
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004777s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:40:59+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004686s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:41:02+08:00 ] 127.0.0.1 /index.php/admin/Goods/goods.php?act=list
+ERR: 非法操作:goods.php
+
+[ 2015-04-23T23:41:13+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004034s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:43:23+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.003818s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:45:50+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:45:52+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:45:52+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:45:52+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:45:52+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:45:52+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:47:15+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:47:17+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:47:17+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:47:17+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:47:17+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:48:50+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:48:51+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:48:51+08:00 ] 127.0.0.1 /index.php/admin/Goods/showAttr
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:48:58+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004624s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:49:05+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004931s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:49:26+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:49:26+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:49:26+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:49:42+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004666s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:49:49+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004216s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:51:04+08:00 ] 127.0.0.1 /index.php/admin/goods/showAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004143s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:51:07+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:51:07+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:51:07+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:51:12+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004354s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:51:15+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004882s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:52:29+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004237s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:53:32+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:53:32+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:53:32+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:53:39+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004268s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:53:42+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004238s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:54:01+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004396s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:54:03+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/5
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.003884s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:54:08+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:54:08+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:54:08+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:54:12+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004276s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:54:19+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004519s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:55:01+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:55:01+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:55:01+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:55:05+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+
+[ 2015-04-23T23:55:07+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+
+[ 2015-04-23T23:55:18+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+
+[ 2015-04-23T23:55:20+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/5
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+
+[ 2015-04-23T23:55:47+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.003714s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:55:52+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:55:52+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:55:52+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:55:56+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004022s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:57:38+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004236s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:57:46+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:57:46+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:57:46+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:57:50+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.005321s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:58:20+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004063s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:59:01+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.003907s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:59:22+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004582s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:59:27+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:59:27+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:59:27+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-04-23T23:59:31+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.004026s ]
+ERR: Model:getAttr您所请求的方法不存在！
+
+[ 2015-04-23T23:59:44+08:00 ] 127.0.0.1 /index.php/admin/goods/showattr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.005633s ]
+ERR: Model:getAttr您所请求的方法不存在！
+

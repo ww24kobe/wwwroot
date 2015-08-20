@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="Generator" content="YONGDA v1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Keywords" content="" />
+        <meta name="Description" content="" />
+
+        <title>爱购商城 - Powered by Wangweia</title>
+
+        <link href="__HCSS__/style.css" rel="stylesheet" type="text/css" />
+        <js href="__JS__/jquery.js"/>
+        <style type="text/css">
+            table {border:1px solid #dddddd; border-collapse: collapse; width:99%; margin:auto;}
+            td {border:1px solid #dddddd;}
+            #consignee_addr {width:450px;}
+        </style>
+    </head>
+    <body>
+
+    <include  file="Public:head"/>
+
+        <div class="block box">
+            <div class="blank"></div>
+            <div id="ur_here">
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 购物流程 
+            </div>
+        </div>
+        <div class="blank"></div>
+
+        <div class="blank"></div>
+        <div class="block">
+            <div class="flowBox">
+                <h6><span>商品列表</span></h6>
+                <form id="formCart">
+                    <table cellpadding="5" cellspacing="1">
+                        <tbody><tr>
+                                <th>商品名称</th>
+                                <th>属性</th>
+                                <th>市场价</th>
+                                <th>本店价</th>
+                                <th>购买数量</th>
+                                <th>小计</th>
+                                <th>操作</th>
+                            </tr>
+                            <?php foreach($listdata as  $v) {?>
+                            <tr>
+                                <td align="center">
+                                    <a href="__GROUP__/Goods/detail/id/<?php  echo $v['goods_id'];?>" target="_blank"><img style="width: 80px; height: 80px;" src="__UPLOAD__/<?php  echo $v['goods_thumb'];?>" title="P806" /></a><br />
+                                    <a href="__GROUP__/Goods/detail/id/<?php  echo $v['goods_id'];?>" target="_blank" class="f6"><?php  echo $v['goods_name'];?></a>
+                                </td>
+                                <td><?php  echo $v['goods_attr'];?>
+                                </td>
+                                <td align="right">￥<?php  echo $v['shop_price']*1.2;?>元</td>
+                                <td align="right">￥<?php  echo $v['shop_price'];?>元</td>
+                                <td align="right">
+                                     <a href="javascript:" class="dec"><img src="__HIMG__/bag_close.gif"/></a><input name="goods_number[43]" id="goods_number_43" value="<?php  echo $v['goods_number'];?>" size="4" class="inputBg" style="text-align: center;" onkeydown="showdiv(this)" type="text" />
+                                     <a href="javascript:" class="add"><img src="__HIMG__/bag_open.gif"/></a><input type="hidden" name="id" value="<?php echo $v['id'] ?>"/>
+                                </td>
+                                <td align="right">￥<span><?php  echo ($v['goods_attr_price']+$v['shop_price'])*$v['goods_number'];?>元</span></td>
+                                <td align="center">
+                                    <a href="__URL__/delItem/id/<?php  echo $v['id'];?>" class="f6">删除</a>
+                                </td>
+                            </tr>
+                            <?php }?>
+                        </tbody>
+                        </table>
+                    <table cellpadding="5" cellspacing="1">
+                        <tbody><tr>
+                                <td>
+                                    购物金额小计 ￥<span id="total_price"><?php  echo $total_price;?></span>元 </td>
+                                <td align="right">
+                                    <input value="清空购物车" class="bnt_blue_1"  type="button" onclick="window.location.href='__URL__/clearCart'" />
+                                    <input name="submit" class="bnt_blue_1" value="更新购物车" type="submit" />
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    <input name="step" value="update_cart" type="hidden" />
+                </form>
+                <table cellpadding="5" cellspacing="0" width="99%">
+                    <tbody><tr>
+                            <td><a href="#"><img src="__HIMG__/continue.gif" alt="continue" /></a></td>
+                            <td align="right"><a href="__GROUP__/Order/checkout"><img src="__HIMG__/checkout.gif" alt="checkout" /></a></td>
+                        </tr>
+                    </tbody></table>
+            </div>
+            <div class="blank"></div>
+            <div class="blank5"></div>
+        </div>
+
+        <div class="blank"></div>
+        <include  file="Public:foot"/>
+    </body>
+</html>
+<script>
+//四舍五入函数
+function toDecimal(x) {   
+    var f = parseFloat(x);               
+
+if (isNaN(f)) {   
+        return;               
+
+}              
+
+f = Math.round(x*100)/100;              
+
+return f;           
+
+}  
+
+//给class=dec的标签添加单击事件
+$(".dec").click(function(){
+         //取出当前的购买数量
+         var curr_num = parseInt($(this).next().val());
+          //新的购买数量
+          var new_num =  curr_num-1;
+          if(curr_num<=1){
+				return false;
+          }
+          
+          //算出商品单价的价格（包含属性）  小计价格除以商品的数量
+          //找出小计价格。
+          var xiaoji_price = parseFloat($(this).parent().parent().find("span").html());
+         //算出商品的单价：小计价格除以商品的数量
+         var dan_price =  parseFloat(xiaoji_price/curr_num);
+        
+         //新的小计价格是：原来的小计价格+商品的单价
+         var new_xiaoji_price = parseFloat(xiaoji_price-dan_price).toFixed(2);
+         
+         //查出原来购物总金额
+         var total_price =parseFloat($("#total_price").html());
+         
+         //新的购物总的金额：原来的购物总的金额+商品的单价。
+         var new_total_price = (total_price - dan_price).toFixed(2);
+         //通过ajax修改数据库里面的数量
+        //查找出当前购物车数据的id
+            var id = $(this).parent().find("input:last").val();
+            
+            var _this = $(this);
+            //发送ajax
+            $.ajax({
+                type:'get',
+                url:'__URL__/updatecartdec/id/'+id,
+                success:function(msg){
+                    if(msg=='ok'){
+                            //表示修改数据库成功，
+                            //成功之后，把新的小计价格和新的数据量和新的总额，显示到相应的位置。
+                           _this.next().val(new_num);//赋予新的购买数量
+                            //赋予新的小计价格
+                           _this.parent().parent().find("span").html(new_xiaoji_price);
+                            //赋予新的总额
+                            $("#total_price").html(new_total_price);
+                    }
+                }
+         }); 
+});  
+
+//给class=add的标签添加单击事件
+$(".add").click(function(){
+         //取出当前的购买数量
+         var curr_num = parseInt($(this).prev().val());
+          //新的购买数量
+          var new_num =  curr_num+1;
+          //算出商品单价的价格（包含属性）  小计价格除以商品的数量
+          //找出小计价格。
+          var xiaoji_price = parseFloat($(this).parent().parent().find("span").html());
+         //算出商品的单价：小计价格除以商品的数量
+         var dan_price =  parseFloat(xiaoji_price/curr_num);
+         //新的小计价格是：原来的小计价格+商品的单价
+         var new_xiaoji_price = parseFloat(xiaoji_price+dan_price).toFixed(2);
+         //查出原来购物总金额
+         var total_price =parseFloat($("#total_price").html());
+         //新的购物总的金额：原来的购物总的金额+商品的单价。
+         var new_total_price = parseFloat(total_price + dan_price).toFixed(2);
+         //通过ajax修改数据库里面的数量
+        //查找出当前购物车数据的id
+            var id = $(this).parent().find("input:last").val();
+            var _this = $(this);
+      $.ajax({
+            type:'get',
+            url:'__URL__/updatecart/id/'+id,
+            success:function(msg){
+                if(msg=='ok'){
+                        //表示修改数据库成功，
+                        //成功之后，把新的小计价格和新的数据量和新的总额，显示到相应的位置。
+                       _this.prev().val(new_num);//赋予新的购买数量
+                        //赋予新的小计价格
+                       _this.parent().parent().find("span").html(new_xiaoji_price);
+                        //赋予新的总额
+                        $("#total_price").html(new_total_price);
+                }
+            }
+         });     
+});
+
+</script>

@@ -1,0 +1,21 @@
+[ 2015-05-01T00:15:20+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-05-01T00:15:20+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-05-01T00:15:20+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-05-01T00:15:22+08:00 ] 127.0.0.1 /index.php/admin/index/goodsList.html
+ERR: 非法操作:goodslist
+
+[ 2015-05-01T00:15:59+08:00 ] 127.0.0.1 /index.php/admin/goods/add
+ERR: 模板不存在[./App/Tpl/Admin/Public/dispatch_jump.html]
+
+[ 2015-05-01T00:17:32+08:00 ] 127.0.0.1 /index.php/admin/goods/add
+ERR: 模板不存在[./App/Tpl/Admin/Public/dispatch_jump.html]
+
+[ 2015-05-01T00:19:17+08:00 ] 127.0.0.1 /index.php/admin/goods/add
+ERR: 模板不存在[./App/Tpl/Admin/Public/dispatch_jump.html]
+

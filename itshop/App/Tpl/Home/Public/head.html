@@ -1,0 +1,104 @@
+<div class="block clearfix" style="position: relative; height: 98px;">
+            <a href="/" name="top"><img class="logo" src="__HIMG__/logo.jpg"></a>
+
+            <div id="topNav" class="clearfix">
+                <div style="float: left;"> 
+                    <font id="ECS_MEMBERZONE">
+                    
+                        <div id="append_parent"></div>
+                      
+                        <?php if(empty($_SESSION['username'])){?>
+                        <a href="__GROUP__/User/login"> 登录</a>
+                        <a href="__GROUP__/User/register">注册</a>
+                        <?php  }else{?>
+                          		欢迎光临本店&nbsp;:<?php echo $_SESSION['username'].'&nbsp;'."<a href='__GROUP__/User/center'>个人中心</a>&nbsp;"."<a href='__GROUP__/User/logout'>退出登录</a>&nbsp;"; ?>
+                        <?php  }?>
+                    </font>
+                </div>
+                <div style="float: right;">
+                   
+                    <a  onClick="SetHome('www.mobileshop.com')" href="javascript:void(0)" title="设为首页">设为首页</a>
+                    |
+                    <a onClick="AddFavorite('www.mobileshop.com','手机商城')" href="javascript:void(0)" title="加入收藏">收藏</a>
+                    
+                </div>
+            </div>
+            <div id="mainNav" class="clearfix">
+                <a href="/" class="cur">首页<span></span></a>
+                <?php foreach($topdata as $v){?>
+                <a href="__GROUP__/Category/Category/id/<?php echo $v['id'];?>"><?php echo $v['cat_name'];?><span></span></a>
+                
+                <?php  }?>
+            </div>
+        </div>
+
+        <div class="header_bg">
+            <div style="float: left; font-size: 14px; color:white; padding-left: 15px;">
+            </div>  
+            <form id="searchForm" method="get" action="__GROUP__/Category/category">
+                <input name="keywords" id="keyword" required type="search" />
+                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('__HIMG__/sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
+            </form>
+        </div>
+        <div class="blank5"></div>
+        <div class="header_bg_b">
+              <div class="f_l" style="padding-left: 10px;">
+                <!--  <img src="__HIMG__/biao6.gif" />
+                    北京市区，现在下单(截至次日00:30已出库)，<b>明天上午(9-14点)</b>送达 <b>免运费火热进行中！</b>
+                    <img style="vertical-align: middle;" src="__HIMG__/biao3.gif">-->
+                    <span class="cart" id="ECS_CARTINFO">
+                        <a href="#" title="查看购物车">您的购物车中有 <?php  echo $cartdata['number'];?> 种商品，总计金额 ￥<?php  echo $cartdata['total_price']?>元。</a></span>
+                    <a href="__GROUP__/Cart/showCart"><img style="vertical-align: middle;" src="__HIMG__/biao7.gif"></a>
+            </div>
+            <!--  <div class="f_r" style="padding-right: 10px;">
+                <img style="vertical-align: middle;" src="__HIMG__/biao3.gif">
+                    <span class="cart" id="ECS_CARTINFO">
+                        <a href="#" title="查看购物车">您的购物车中有 <?php  echo $cartdata['number'];?> 种商品，总计金额 ￥<?php  echo $cartdata['total_price']?>元。</a></span>
+                    <a href="__GROUP__/Cart/showCart"><img style="vertical-align: middle;" src="__HIMG__/biao7.gif"></a>
+
+            </div>-->
+        </div>
+        
+        <script>
+        function SetHome(url) {
+
+            if (document.all) {
+
+                document.body.style.behavior = 'url(#default#homepage)';
+
+                document.body.setHomePage(url);
+
+            } else {
+
+                alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+
+            }
+
+        }
+        
+        function AddFavorite(sURL, sTitle) {
+
+            sURL = encodeURI(sURL);
+
+            try {
+
+                window.external.addFavorite(sURL, sTitle);
+
+            } catch (e) {
+
+            try {
+
+                window.sidebar.addPanel(sTitle, sURL, "");
+
+            } catch (e) {
+
+                alert("加入收藏失败,请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+
+                }
+
+            }
+
+        }
+        
+        
+        </script>

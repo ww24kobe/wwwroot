@@ -1,0 +1,21 @@
+<div id="category_tree" class="box_1">
+                <?php foreach($catdata as $v){ 
+                if($v['parent_id']==0){
+                ?>
+                    <dl>
+                        <dt><a href="__GROUP__/Category/Category/id/<?php echo $v['id'];?>"><?php echo $v['cat_name'];?></a></dt>
+                       
+                        <dd>  
+                        <?php foreach($catdata as $v1){
+						if($v1['parent_id']==$v['id']){
+					   ?>   
+                            <a href="__GROUP__/Category/Category/id/<?php echo $v1['id'];?>"><?php echo $v1['cat_name'];?></a>
+                          <?php }}?> 
+                        </dd>
+                       
+                    </dl>
+                    <?php }}?>
+                    
+                   
+
+ </div>

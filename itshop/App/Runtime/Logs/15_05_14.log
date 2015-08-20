@@ -1,0 +1,707 @@
+[ 2015-05-14T11:48:35+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-05-14T11:48:35+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-05-14T11:48:35+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-05-14T11:50:45+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/20
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.012392s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.003999s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.002175s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.012984s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008350s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (21,20) ) LIMIT 5   [ RunTime:0.001501s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=20 [ RunTime:0.000777s ]
+
+[ 2015-05-14T12:00:21+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310734942477
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310734942477' [ RunTime:0.037615s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023067s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000437s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001681s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2015-05-14T12:00:21+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310735135364
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310735135364' [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007739s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000461s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000444s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000351s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001887s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000643s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2015-05-14T12:00:21+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310735135364
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310735135364' [ RunTime:0.000918s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008023s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000358s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001780s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000664s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2015-05-14T12:00:22+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310734942477
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310734942477' [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008492s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000349s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000281s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001616s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2015-05-14T12:00:22+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310677859485
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310677859485' [ RunTime:0.001138s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000474s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000359s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001652s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2015-05-14T12:00:23+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310779088334
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310779088334' [ RunTime:0.000801s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008764s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000453s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001811s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2015-05-14T12:00:24+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310784329598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310784329598' [ RunTime:0.000932s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009097s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000476s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000340s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001658s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2015-05-14T12:00:25+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310897722159
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310897722159' [ RunTime:0.000908s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009380s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000507s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000436s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001789s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000543s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2015-05-14T12:00:26+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310784329598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310784329598' [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008746s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000463s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000351s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001605s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2015-05-14T12:00:27+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310784329598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310784329598' [ RunTime:0.000902s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007486s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000449s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001661s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2015-05-14T12:00:29+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310897722159
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310897722159' [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010995s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000671s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001927s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2015-05-14T12:00:57+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310779088334
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310779088334' [ RunTime:0.000666s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007465s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000413s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000341s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001526s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2015-05-14T12:00:58+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310677859485
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310677859485' [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010566s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000557s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002127s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2015-05-14T12:00:58+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310734942477
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310734942477' [ RunTime:0.001773s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008054s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000422s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000343s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002123s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2015-05-14T12:00:58+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310779088334
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310779088334' [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007440s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000520s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000478s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001997s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000651s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2015-05-14T12:00:58+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310784329598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310784329598' [ RunTime:0.000625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008016s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000518s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002099s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000611s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2015-05-14T12:01:00+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310897722159
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310897722159' [ RunTime:0.000847s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007301s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000420s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000495s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001734s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000635s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2015-05-14T12:01:01+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310784329598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310784329598' [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008164s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000486s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000337s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001632s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000565s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2015-05-14T12:01:01+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310779088334
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310779088334' [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007905s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000777s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002098s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2015-05-14T12:01:02+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310784329598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310784329598' [ RunTime:0.001025s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000453s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000349s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-05-14T12:01:02+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310897722159
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002544s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310897722159' [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008833s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000502s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000346s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001655s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000629s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2015-05-14T12:01:03+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310784329598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310784329598' [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010211s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000488s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000571s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002003s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000611s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2015-05-14T12:01:06+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310779088334
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310779088334' [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008674s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000488s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000390s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001766s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000562s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2015-05-14T12:01:07+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310784329598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310784329598' [ RunTime:0.000918s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008312s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000476s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000517s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002017s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2015-05-14T12:01:08+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310897722159
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310897722159' [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007557s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000343s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2015-05-14T12:01:08+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310897722159
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310897722159' [ RunTime:0.001074s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000476s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000355s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001656s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2015-05-14T12:01:09+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310784329598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310784329598' [ RunTime:0.000548s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007970s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000359s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001724s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000636s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2015-05-14T12:01:11+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310779088334
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310779088334' [ RunTime:0.000950s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008849s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000530s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000353s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001756s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2015-05-14T12:01:12+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310784329598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310784329598' [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008540s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000598s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000368s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001925s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000605s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2015-05-14T12:01:12+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310897722159
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310897722159' [ RunTime:0.000853s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008513s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000457s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000421s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2015-05-14T12:01:13+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310784329598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310784329598' [ RunTime:0.000855s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007961s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000414s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001833s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000590s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2015-05-14T12:01:14+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310897722159
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310897722159' [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009348s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000546s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000346s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000307s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2015-05-14T12:01:14+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310897722159
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310897722159' [ RunTime:0.000844s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010142s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000478s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000372s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001703s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2015-05-14T12:01:14+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310779088334
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310779088334' [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008087s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000454s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001702s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000608s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2015-05-14T12:01:14+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310734942477
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310734942477' [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009182s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000465s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000452s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000629s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2015-05-14T12:01:15+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310779088334
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310779088334' [ RunTime:0.001114s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010579s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000598s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000635s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000407s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002783s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000750s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2015-05-14T12:01:15+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310784329598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310784329598' [ RunTime:0.000954s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008258s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000497s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000345s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000555s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2015-05-14T12:01:16+08:00 ] 127.0.0.1 /index.php/admin/order/ajax/sn/or_14310897722159
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14310897722159' [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008769s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000415s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000339s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000598s ]
+

@@ -1,0 +1,846 @@
+[ 2015-05-24T12:14:53+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016800s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006771s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001057s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000752s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.007598s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.046759s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007891s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.011914s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.001234s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000977s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.001155s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000931s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027858s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000353s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002895s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001022s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2015-05-24T12:14:55+08:00 ] 127.0.0.1 /index.php/Goods/detail/id/7
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006103s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000348s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000334s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_brand` [ RunTime:0.006376s ]
+SQL: SELECT * FROM `it_brand`  [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006921s ]
+SQL: SELECT * FROM `it_goods` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000987s ]
+SQL: select a.level_name,ifnull(b.level_price,2300.00*a.rate/100) price  from it_member_level a 
+				 left  join it_member_price b on a.id=b.level_id and b.goods_id=7 [ RunTime:0.001731s ]
+SQL: select a.*,b.attr_name from it_goods_attr a left join it_attribute b on a.attr_id=b.id where a.goods_id=7 and b.attr_type=1 [ RunTime:0.015868s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\140d4bef95a7646a38fc6659117b66e1.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033941s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000848s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000465s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000355s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002334s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2015-05-24T12:14:57+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006456s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000801s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000549s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007306s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7) ) LIMIT 5   [ RunTime:0.000790s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\CartAction.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026715s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000381s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000339s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001507s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2015-05-24T12:14:59+08:00 ] 127.0.0.1 /index.php/user/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.009359s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001179s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000876s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.010902s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7) ) LIMIT 5   [ RunTime:0.000794s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017047s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000572s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000361s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001730s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000908s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2015-05-24T12:15:12+08:00 ] 127.0.0.1 /index.php/user/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005444s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000383s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000225s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.005952s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7) ) LIMIT 5   [ RunTime:0.000278s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006330s ]
+NOTIC: [8] Undefined index: c D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: act D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 32 行.
+SQL: SELECT * FROM `it_member` WHERE ( username='test2' ) LIMIT 1   [ RunTime:0.000567s ]
+SQL: UPDATE `it_member` SET `last_time`=1432440912,`last_ip`='127.0.0.1' WHERE ( id=6 ) [ RunTime:0.186146s ]
+NOTIC: [8] Undefined index: remember D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013650s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000555s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002356s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000821s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2015-05-24T12:15:13+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001145s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006093s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000539s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.014921s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=6 )  [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.013643s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7) ) LIMIT 5   [ RunTime:0.000615s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.008663s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.000602s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000689s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000726s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000669s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000696s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029259s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000883s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004039s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2015-05-24T12:15:17+08:00 ] 127.0.0.1 /index.php/Goods/detail/id/7
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000716s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006305s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001842s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007082s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=6 )  [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006252s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7) ) LIMIT 5   [ RunTime:0.000947s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_brand` [ RunTime:0.005551s ]
+SQL: SELECT * FROM `it_brand`  [ RunTime:0.001126s ]
+SQL: SELECT * FROM `it_goods` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000883s ]
+SQL: select a.level_name,ifnull(b.level_price,2300.00*a.rate/100) price  from it_member_level a 
+				 left  join it_member_price b on a.id=b.level_id and b.goods_id=7 [ RunTime:0.000492s ]
+SQL: select a.*,b.attr_name from it_goods_attr a left join it_attribute b on a.attr_id=b.id where a.goods_id=7 and b.attr_type=1 [ RunTime:0.000720s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016239s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000722s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000366s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000252s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001901s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2015-05-24T12:15:19+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000874s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006246s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001111s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006923s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=6 )  [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007005s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7) ) LIMIT 5   [ RunTime:0.000936s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SELECT `shop_price` FROM `it_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.007587s ]
+SQL: SELECT * FROM `it_attribute`  [ RunTime:0.001082s ]
+SQL: select attr_price from it_goods_attr where goods_id=7 and attr_value='金色' [ RunTime:0.000860s ]
+SQL: select attr_price from it_goods_attr where goods_id=7 and attr_value='32G' [ RunTime:0.001376s ]
+SQL: SELECT * FROM `it_cart` WHERE ( goods_id=7 and goods_attr='颜色:金色[40]<br/>内存:32G[50]' and session_id='ufvgkb0be8eh5ddg5mfrm3njb3' )  [ RunTime:0.001080s ]
+SQL: insert into it_cart (goods_id,user_id,session_id,goods_name,shop_price,goods_number,goods_attr,goods_attr_price,goods_attr_id) values(7,6,'ufvgkb0be8eh5ddg5mfrm3njb3','三星s5','2300.00','1','颜色:金色[40]<br/>内存:32G[50]','90','1,2') [ RunTime:0.093527s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015046s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000686s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000710s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002814s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2015-05-24T12:15:20+08:00 ] 127.0.0.1 /index.php/Cart/showCart
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000693s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006391s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000526s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.005996s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=6 )  [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006608s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7) ) LIMIT 5   [ RunTime:0.000455s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.005998s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=6  )  [ RunTime:0.000908s ]
+SQL: SELECT `goods_thumb` FROM `it_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000441s ]
+SQL: SELECT `goods_thumb` FROM `it_goods` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.000401s ]
+SQL: SELECT `goods_thumb` FROM `it_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033158s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001082s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000479s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002507s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2015-05-24T12:15:22+08:00 ] 127.0.0.1 /index.php/Order/checkout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000899s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006411s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000915s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007673s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=6 )  [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007413s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7) ) LIMIT 5   [ RunTime:0.000594s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006179s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=6  )  [ RunTime:0.000693s ]
+SQL: SELECT `goods_thumb` FROM `it_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SELECT `goods_thumb` FROM `it_goods` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.000726s ]
+SQL: SELECT `goods_thumb` FROM `it_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.007764s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=6 ) LIMIT 1   [ RunTime:0.001057s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Tpl/Home/Pbulic/foot.html): failed to open stream: No such file or directory D:\server\apache\htdocs\itshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+NOTIC: [8] Undefined index: number D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\dad064e11a3d4c39a253786f82a93378.php 第 70 行.
+NOTIC: [8] Undefined index: total_price D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\dad064e11a3d4c39a253786f82a93378.php 第 70 行.
+NOTIC: [8] Undefined index: number D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\dad064e11a3d4c39a253786f82a93378.php 第 76 行.
+NOTIC: [8] Undefined index: total_price D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\dad064e11a3d4c39a253786f82a93378.php 第 76 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021997s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000866s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000441s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002174s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000789s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2015-05-24T12:15:26+08:00 ] 127.0.0.1 /index.php/Order/updateaddress
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000857s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005649s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001139s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007650s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=6 )  [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007471s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7) ) LIMIT 5   [ RunTime:0.001004s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.006066s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=6 ) LIMIT 1   [ RunTime:0.000980s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.082101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082266s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001480s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000806s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004012s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001664s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001767s ]
+
+[ 2015-05-24T15:12:29+08:00 ] 127.0.0.1 /index.php/admin/manager/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001723s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001832s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.107578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107710s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.013312s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000880s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015874s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000949s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2015-05-24T15:12:31+08:00 ] 127.0.0.1 /index.php/admin/manager/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-05-24T15:12:31+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.028520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.107133s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.194503s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.040891s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001527s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.383106s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7) ) LIMIT 5   [ RunTime:0.122527s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.334680s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.172688s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.127648s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.002221s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.002234s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.002057s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.001504s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.403999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.404116s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000952s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2015-05-24T15:12:40+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Undefined index: verify D:\server\apache\htdocs\itshop\App\Lib\Action\Admin\ManagerAction.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044175s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000486s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000442s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001957s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-05-24T15:12:48+08:00 ] 127.0.0.1 /index.php/admin/manager/verify/1432451568163
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+
+[ 2015-05-24T15:12:49+08:00 ] 127.0.0.1 /index.php/admin/manager/verify/1432451569036
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+
+[ 2015-05-24T15:12:52+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008582s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000409s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001886s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2015-05-24T15:12:56+08:00 ] 127.0.0.1 /index.php/admin/manager/verify/1432451576829
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+
+[ 2015-05-24T15:13:06+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001061s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `it_manager` [ RunTime:0.084067s ]
+SQL: SELECT * FROM `it_manager` WHERE (  username='admin' and  password='21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.001552s ]
+SQL: UPDATE `it_manager` SET `last_time`=1432451586,`last_ip`='127.0.0.1' WHERE ( id=2 ) [ RunTime:0.051389s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011070s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000718s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000488s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002911s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000905s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2015-05-24T15:13:07+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038352s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000446s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000358s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001673s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2015-05-24T15:13:07+08:00 ] 127.0.0.1 /index.php/admin/index/top
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001369s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025814s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000713s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000722s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003096s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001230s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2015-05-24T15:13:07+08:00 ] 127.0.0.1 /index.php/admin/index/menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001078s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030485s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000892s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000485s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002764s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000732s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2015-05-24T15:13:08+08:00 ] 127.0.0.1 /index.php/admin/index/main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005226s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005415s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003137s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: arr D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\2ad3618d67075988ac943fe5d6b7b9e4.php 第 53 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.116454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116558s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000965s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000857s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000586s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003659s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2015-05-24T15:13:08+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001124s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+ERR: 非法操作:js
+
+[ 2015-05-24T15:13:08+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+ERR: 非法操作:js
+
+[ 2015-05-24T15:13:08+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+ERR: 非法操作:js
+
+[ 2015-05-24T15:14:00+08:00 ] 127.0.0.1 /index.php/admin/Order/orderList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `it_order_info` [ RunTime:0.031619s ]
+SQL: SELECT it_order_info.*,b.info FROM `it_order_info` LEFT JOIN it_order_status b on it_order_info.status=b.id  [ RunTime:0.024133s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025050s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000490s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002012s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000819s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2015-05-24T15:14:17+08:00 ] 127.0.0.1 /index.php/admin/Member/userlist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000904s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: select a.*,b.level_name from it_member a  left join it_member_level b on a.level_id=b.id [ RunTime:0.049391s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024677s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000595s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000475s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000289s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002054s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2015-05-24T15:18:43+08:00 ] 127.0.0.1 /index.php/admin/Message/meslist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `it_message` [ RunTime:0.035988s ]
+SQL: SELECT * FROM `it_message`  [ RunTime:0.001642s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034503s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000580s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000493s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002158s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000691s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2015-05-24T15:19:02+08:00 ] 127.0.0.1 /index.php/admin/Member/userlist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: select a.*,b.level_name from it_member a  left join it_member_level b on a.level_id=b.id [ RunTime:0.001002s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008258s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000446s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000346s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001596s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-05-24T15:20:27+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000710s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.010833s ]
+SQL: SELECT * FROM `it_member_level`  [ RunTime:0.000897s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021710s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000548s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000424s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001990s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000706s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2015-05-24T15:20:29+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021362s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000480s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000374s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001835s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2015-05-24T15:20:31+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001216s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002061s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.007072s ]
+SQL: SELECT * FROM `it_member_level`  [ RunTime:0.001086s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009248s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000396s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000342s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001630s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000590s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2015-05-24T15:23:08+08:00 ] 127.0.0.1 /index.php/admin/Member/userlist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001027s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: select a.*,b.level_name from it_member a  left join it_member_level b on a.level_id=b.id [ RunTime:0.000775s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009014s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000775s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000642s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002868s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000777s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2015-05-24T15:23:11+08:00 ] 127.0.0.1 /index.php/admin/Advert/advlist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000693s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.008533s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc  [ RunTime:0.001407s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025995s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000478s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000345s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000252s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2015-05-24T15:23:12+08:00 ] 127.0.0.1 /index.php/admin/Advert/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002839s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045058s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000636s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000522s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000282s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002226s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000921s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000996s ]
+

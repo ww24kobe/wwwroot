@@ -1,0 +1,391 @@
+[ 2015-06-10T01:23:05+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+ERR: Unknown database 'itshop'
+
+[ 2015-06-10T01:26:03+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013130s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.010380s ]
+ERR: 1146:Table 'itshop.it_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `it_category`
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000796s ]
+ERR: 1146:Table 'itshop.it_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `it_category` WHERE ( parent_id=0 ) 
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000643s ]
+ERR: 1146:Table 'itshop.it_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `it_category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Lib\Model\CategoryModel.class.php 第 46 行.
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.007200s ]
+ERR: 1146:Table 'itshop.it_advert' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `it_advert`
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.000897s ]
+ERR: 1146:Table 'itshop.it_advert' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10  
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006538s ]
+ERR: 1146:Table 'itshop.it_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `it_goods`
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000593s ]
+ERR: 1146:Table 'itshop.it_goods' doesn't exist
+ [ SQL语句 ] : select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000408s ]
+ERR: 1146:Table 'itshop.it_goods' doesn't exist
+ [ SQL语句 ] : select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000364s ]
+ERR: 1146:Table 'itshop.it_goods' doesn't exist
+ [ SQL语句 ] : select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000493s ]
+ERR: 1146:Table 'itshop.it_goods' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3  
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000471s ]
+ERR: 1146:Table 'itshop.it_goods' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5  
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 43 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 158 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 173 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 215 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 238 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 263 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 285 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 327 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.122866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005995s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003258s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008147s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008283s ]
+
+[ 2015-06-10T01:26:03+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018126s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.013958s ]
+ERR: 1146:Table 'itshop.it_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `it_category`
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000484s ]
+ERR: 1146:Table 'itshop.it_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `it_category` WHERE ( parent_id=0 ) 
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000472s ]
+ERR: 1146:Table 'itshop.it_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `it_category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Lib\Model\CategoryModel.class.php 第 46 行.
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.006911s ]
+ERR: 1146:Table 'itshop.it_advert' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `it_advert`
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.000546s ]
+ERR: 1146:Table 'itshop.it_advert' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10  
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006763s ]
+ERR: 1146:Table 'itshop.it_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `it_goods`
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000443s ]
+ERR: 1146:Table 'itshop.it_goods' doesn't exist
+ [ SQL语句 ] : select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000316s ]
+ERR: 1146:Table 'itshop.it_goods' doesn't exist
+ [ SQL语句 ] : select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000310s ]
+ERR: 1146:Table 'itshop.it_goods' doesn't exist
+ [ SQL语句 ] : select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000438s ]
+ERR: 1146:Table 'itshop.it_goods' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3  
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000503s ]
+ERR: 1146:Table 'itshop.it_goods' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5  
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 43 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 158 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 173 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 215 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 238 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 263 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 285 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 327 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030076s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001491s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000893s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000490s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004156s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2015-06-10T01:28:32+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006413s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000535s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000378s ]
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.006564s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007690s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000677s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000477s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000372s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000377s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 327 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025557s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001075s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005848s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001141s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2015-06-10T01:28:33+08:00 ] 127.0.0.1 /index.php/Goods/detail/id/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.038292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.038528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007357s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000810s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_brand` [ RunTime:0.006486s ]
+SQL: SELECT * FROM `it_brand`  [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006958s ]
+SQL: SELECT * FROM `it_member`  [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006225s ]
+SQL: SELECT * FROM `it_goods` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000823s ]
+SQL: select a.level_name,ifnull(b.level_price,920.00*a.rate/100) price  from it_member_level a 
+				 left  join it_member_price b on a.id=b.level_id and b.goods_id=1 [ RunTime:0.029718s ]
+SQL: select a.*,b.attr_name from it_goods_attr a left join it_attribute b on a.attr_id=b.id where a.goods_id=1 and b.attr_type=1 [ RunTime:0.001854s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `it_goods_comment` [ RunTime:0.007126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods_comment` LIMIT 1   [ RunTime:0.006769s ]
+SQL: SELECT * FROM `it_goods_comment` WHERE ( goods_id=1 ) ORDER BY time desc LIMIT 5   [ RunTime:0.000655s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\140d4bef95a7646a38fc6659117b66e1.php 第 162 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Runtime\Cache\Home\140d4bef95a7646a38fc6659117b66e1.php 第 328 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050532s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001579s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001022s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004692s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001445s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2015-06-10T01:28:39+08:00 ] 127.0.0.1 /index.php/Category/Category/id/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002163s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002399s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006135s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000904s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000426s ]
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006395s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (1) ) LIMIT 5   [ RunTime:0.000647s ]
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: b_id D:\server\wamp\www\itshop\App\Lib\Action\Home\CategoryAction.class.php 第 19 行.
+NOTIC: [8] Undefined index: b_price D:\server\wamp\www\itshop\App\Lib\Action\Home\CategoryAction.class.php 第 27 行.
+NOTIC: [8] Undefined index: b_new D:\server\wamp\www\itshop\App\Lib\Action\Home\CategoryAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: b_best D:\server\wamp\www\itshop\App\Lib\Action\Home\CategoryAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Lib\Action\Home\CategoryAction.class.php 第 79 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Lib\Action\Home\CategoryAction.class.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( 1  ) LIMIT 1   [ RunTime:0.000656s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000434s ]
+SQL: select *  from  it_goods where 1 and cat_id in (3) and  is_delete=0   order  by sort desc   LIMIT 0, 4 [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `it_brand` [ RunTime:0.006895s ]
+SQL: SELECT * FROM `it_brand`  [ RunTime:0.000764s ]
+SQL: SELECT * FROM `it_goods` WHERE ( cat_id in (3) and is_best=1 and is_sale=1 and is_delete=0 )  [ RunTime:0.001018s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000547s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 199 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 200 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 201 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 202 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 203 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 204 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 205 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 206 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 207 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 208 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 209 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 214 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 215 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 216 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 217 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 222 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 223 行.
+NOTIC: [8] Undefined index: query D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 224 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049627s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001830s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000953s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000769s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004916s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001215s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2015-06-10T01:28:41+08:00 ] 127.0.0.1 /index.php/category/category/b_id/7
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001622s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005748s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000534s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000352s ]
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006246s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (1) ) LIMIT 5   [ RunTime:0.000495s ]
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: b_price D:\server\wamp\www\itshop\App\Lib\Action\Home\CategoryAction.class.php 第 27 行.
+NOTIC: [8] Undefined index: b_new D:\server\wamp\www\itshop\App\Lib\Action\Home\CategoryAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: b_best D:\server\wamp\www\itshop\App\Lib\Action\Home\CategoryAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: is_new D:\server\wamp\www\itshop\App\Lib\Action\Home\CategoryAction.class.php 第 79 行.
+NOTIC: [8] Undefined index: is_best D:\server\wamp\www\itshop\App\Lib\Action\Home\CategoryAction.class.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\server\wamp\www\itshop\App\Lib\Action\Home\CategoryAction.class.php 第 86 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( 1 and brand_id=7 ) LIMIT 1   [ RunTime:0.000528s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000461s ]
+SQL: select *  from  it_goods where 1 and cat_id in (1,2,3,4,5,6,7,8,0) and  is_delete=0 and brand_id=7  order  by sort desc   LIMIT 0, 4 [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `it_brand` [ RunTime:0.006074s ]
+SQL: SELECT * FROM `it_brand`  [ RunTime:0.000791s ]
+SQL: SELECT * FROM `it_goods` WHERE ( cat_id in (1,2,3,4,5,6,7,8,0) and is_best=1 and is_sale=1 and is_delete=0 )  [ RunTime:0.000967s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000468s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: b_price D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 214 行.
+NOTIC: [8] Undefined index: b_price D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 215 行.
+NOTIC: [8] Undefined index: b_price D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 216 行.
+NOTIC: [8] Undefined index: b_price D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 217 行.
+NOTIC: [8] Undefined index: is_hot D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 222 行.
+NOTIC: [8] Undefined index: is_new D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 223 行.
+NOTIC: [8] Undefined index: is_best D:\server\wamp\www\itshop\App\Runtime\Cache\Home\e2590d0adb4b8daf06d37ac9bcfe0b49.php 第 224 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025890s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001559s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000677s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003963s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000980s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2015-06-10T01:28:44+08:00 ] 127.0.0.1 /index.php/Cart/showCart
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005736s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000585s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000303s ]
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006817s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (1) ) LIMIT 5   [ RunTime:0.000567s ]
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.008558s ]
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Model\CartModel.class.php 第 52 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Model\CartModel.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Lib\Model\CartModel.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033404s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001486s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000823s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004416s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2015-06-10T01:28:46+08:00 ] 127.0.0.1 /index.php/Order/checkout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007529s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000475s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000311s ]
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006253s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (1) ) LIMIT 5   [ RunTime:0.000501s ]
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Action\Home\OrderAction.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.005851s ]
+NOTIC: [8] Undefined index: user_id D:\server\wamp\www\itshop\App\Lib\Model\CartModel.class.php 第 52 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\wamp\www\itshop\App\Lib\Model\CartModel.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\wamp\www\itshop\App\Lib\Model\CartModel.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023277s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000896s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000726s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000633s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004218s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001194s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001322s ]
+

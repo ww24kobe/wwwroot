@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="Generator" content="YONGDA v1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Keywords" content="YONGDA商城" />
+        <meta name="Description" content="YONGDA商城" />
+
+        <title>YONGDA商城 - Powered by YongDa</title>
+
+        <link href="__HCSS__/style.css" rel="stylesheet" type="text/css" />
+
+    </head>
+    <body class="index_body">
+		<include file='Public:head'/>
+
+        <div class="block block1">  
+
+            <div class="block box">
+                <div class="blank"></div>
+                <div id="ur_here">
+                    当前位置: <a href="/">首页</a> <code>&gt;</code> 站内公告
+                </div>
+            </div>
+            <div class="blank"></div>
+
+
+            <!--放入view具体内容-->
+
+            <div class="block box">
+
+                <div class="usBox">
+                    <div><center><h1><?php  echo $advinfo['title'];?></h1>发布时间：<?php  echo date('Y-m-d H:i:s',$advinfo['add_time']);?></center></div>
+                    <div><?php  echo $advinfo['content'];?></div>
+                </div>
+            </div>
+            <!--放入view具体内容-->
+
+        </div>
+
+        <div class="blank"></div>
+        <include file='Public:foot'/>
+
+    </body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="Generator" content="YONGDA v1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Keywords" content="" />
+        <meta name="Description" content="" />
+    
+        <title>爱购商城 - Powered by Wangwei</title>
+        <link rel="shortcut icon" href="__HIMG__/ico.ico" type="image/x-icon" />
+        <link href="__HCSS__/style.css" rel="stylesheet" type="text/css" />
+        <style>
+        .xuan{background:blue}
+        </style>
+        <js href="__JS__/jquery.js"/>
+    </head>
+    <body>
+   			 <!-- 引入头部 -->
+        <include  file="Public:head" />
+        <div class="block box">
+            <div class="blank"></div>
+            <div id="ur_here">
+           
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 
+               <?php  foreach($navdata as  $v){?>
+                <a href="__GROUP__/Category/category/id/<?php  echo $v['id'];?>"><?php  echo $v['cat_name'];?></a>
+                <?php if(end($navdata)!=$v){?>
+                 <code>&gt;</code> 
+                 <?php  }?>
+                <?php }?>
+            </div>
+        </div>
+        <div class="blank"></div>
+
+        <div class="block box">
+
+        <div class="block clearfix">
+            <div class="AreaL">
+                <h3><span>商品分类</span></h3> 
+                <!-- 引入公共栏目模块 -->
+                <include file="Public:Category"/>
+                <div class="blank"></div>
+                <div style="display: block;" class="box" id="history_div">
+                    <h3><span>浏览历史</span></h3>
+                    <div class="box_1">
+
+                        <div class="boxCenterList clearfix" id="history_list">
+                        <?php foreach($visitdata as  $v){?>
+                            <ul class="clearfix">
+                                <li class="goodsimg">
+                                    <a href="__GROUP__/Goods/detail/id/<?php  echo $v['id'];?>" target="_blank">
+                                        <img src="__UPLOAD__/<?php  echo $v['goods_thumb'];?>" alt="飞利浦9@9v" class="B_blue" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="__GROUP__/Goods/detail/id/<?php  echo $v['id'];?>" target="_blank" title="飞利浦9@9v"><?php  echo $v['goods_name'];?></a><br />
+                                    本店售价：<font class="f1">￥3<?php  echo $v['shop_price'];?>元</font><br />
+                                </li>
+                            </ul>
+                           <?php  }?>
+                            <ul id="clear_history">
+                                <a  href="__GROUP__/Goods/clearVisit" onclick="clear_history() ">[清空]</a>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>
+                <div class="blank5"></div>
+
+            </div>
+
+
+            <div class="AreaR">
+
+                <div class="box">
+                    <div class="box_1">
+                        <h3><span>商品筛选</span></h3>
+                        <div class="screeBox">
+                            <strong>品牌：</strong>
+                            <a href="__ACTION__/b_id/0" <?php if(empty($_SESSION['query']['b_id'])) echo 'class="xuan"';?>>全部</a>&nbsp;
+                            <a href="__ACTION__/b_id/1"  <?php if($_SESSION['query']['b_id']==1) echo 'class="xuan"';?> >小米</a>&nbsp;
+                            <a href="__ACTION__/b_id/3" <?php if($_SESSION['query']['b_id']==3) echo 'class="xuan"';?>>三星</a>&nbsp;
+                            <a href="__ACTION__/b_id/2" <?php if($_SESSION['query']['b_id']==2) echo 'class="xuan"';?>>华为</a>&nbsp;
+                            <a href="__ACTION__/b_id/11" <?php if($_SESSION['query']['b_id']==11) echo 'class="xuan"';?>>苹果</a>&nbsp;
+                            <a href="__ACTION__/b_id/4" <?php if($_SESSION['query']['b_id']==4) echo 'class="xuan"';?>>oppo</a>&nbsp;
+                            <a href="__ACTION__/b_id/8" <?php if($_SESSION['query']['b_id']==8) echo 'class="xuan"';?>>索尼</a>&nbsp;
+                            <a href="__ACTION__/b_id/7" <?php if($_SESSION['query']['b_id']==7) echo 'class="xuan"';?>>魅族</a>&nbsp;
+                            <a href="__ACTION__/b_id/10" <?php if($_SESSION['query']['b_id']==10) echo 'class="xuan"';?>>诺基亚</a>&nbsp;
+                            <a href="__ACTION__/b_id/9" <?php if($_SESSION['query']['b_id']==9) echo 'class="xuan"';?>>中兴</a>&nbsp;
+                            <a href="__ACTION__/b_id/5" <?php if($_SESSION['query']['b_id']==5) echo 'class="xuan"';?>>酷派</a>&nbsp;
+                            <a href="__ACTION__/b_id/12" <?php if($_SESSION['query']['b_id']==12) echo 'class="xuan"';?>>金士顿</a>&nbsp;
+                        </div>
+                        <div class="screeBox">
+                            <strong>价格：</strong>
+                            <a href="__ACTION__/b_price/0" <?php if(empty($_SESSION['query']['b_price'])) echo 'class="xuan"';?> >全部</a>&nbsp;
+                            <a href="__ACTION__/b_price/0 and 1000" <?php if($_SESSION['query']['b_price']=='0 and 1000') echo 'class="xuan"';?> >0&nbsp;-&nbsp;1000</a>&nbsp;
+                            <a href="__ACTION__/b_price/1000 and 3000" <?php if($_SESSION['query']['b_price']=='1000 and 3000') echo 'class="xuan"';?> >1000&nbsp;-&nbsp;3000</a>&nbsp;
+                            <a href="__ACTION__/b_price/3000 and 5000" <?php if($_SESSION['query']['b_price']=='3000 and 5000') echo 'class="xuan"';?> >3000&nbsp;-&nbsp;5000</a>&nbsp;
+                            <a href="__ACTION__/b_price/5000 and 8000" <?php if($_SESSION['query']['b_price']=='5000 and 8000') echo 'class="xuan"';?> >5000&nbsp;-&nbsp;8000</a>&nbsp;
+                        </div>
+                        <div class="screeBox">
+                            <strong>其他 :</strong>
+                            <a href="__ACTION__" <?php if(empty($_SESSION['query']['is_hot'])&&empty($_SESSION['query']['is_new'])&&empty($_SESSION['query']['is_best'])) echo 'class="xuan"';?> >全部</a>
+                            <a href="__ACTION__/b_hot/1" <?php if($_SESSION['query']['is_hot']==1) echo 'class="xuan"';?>>热卖</a>&nbsp;
+                            <a href="__ACTION__/b_new/1" <?php if($_SESSION['query']['is_new']==1) echo 'class="xuan"';?>>新品</a>&nbsp;
+                            <a href="__ACTION__/b_best/1" <?php if($_SESSION['query']['is_best']==1) echo 'class="xuan"';?>>精品</a>&nbsp;
+                        </div>
+                       <!-- <div class="screeBox">
+                            <strong>屏幕大小 :</strong>
+                            <span>全部</span>
+                            <a href="#">1.75英寸</a>&nbsp;
+                            <a href="#">2.0英寸</a>&nbsp;
+                            <a href="#">2.2英寸</a>&nbsp;
+                            <a href="#">2.6英寸</a>&nbsp;
+                            <a href="#">2.8英寸</a>&nbsp;
+                        </div>
+                        <div class="screeBox">
+                            <strong>手机制式 :</strong>
+                            <span>全部</span>
+                            <a href="#">CDMA</a>&nbsp;
+                            <a href="#">GSM,850,900,1800,1900</a>&nbsp;
+                            <a href="#">GSM,900,1800,1900,2100</a>&nbsp;
+                        </div>
+                        <div class="screeBox">
+                            <strong>外观样式 :</strong>
+                            <span>全部</span>
+                            <a href="#">滑盖</a>&nbsp;
+                            <a href="#">直板</a>&nbsp;
+                        </div>-->
+                    </div>
+                </div>
+                <div class="blank"></div>
+
+
+               <!--   <div class="itemTit" id="itemBest">
+
+                    <div class="tit">精品推荐</div>
+                </div>
+                <div id="show_best_area" class="clearfix">
+                <?php  foreach($bestdata as  $v){?>
+                    <div class="goodsItem">
+
+                        <a href="__GROUP__/Goods/detail/id/<?php echo $v['id']; ?>"><img src="__UPLOAD__/<?php echo $v['goods_thumb']; ?>" alt="诺基亚E66" class="goodsimg"></a><br />
+                        <p class="f1"><a href="#" title="诺基亚E66"><?php echo $v['goods_name']; ?></a></p>
+                        <font class="market">￥<?php echo $v['shop_price']*1.2; ?>元</font><br />
+                        <font class="f1">
+                            ￥<?php echo $v['shop_price']; ?>元                     </font>
+                    </div>
+                <?php  }?> 
+                   
+
+                </div>-->
+                <div class="blank"></div>
+                <div class="box">
+                    <div class="box_1">
+                        <h3>
+                            <span>商品列表</span>
+                            <form method="GET" class="sort" name="listform">
+                                显示方式：
+                                <a href="#"><img src="__HIMG__/display_mode_list.gif" alt=""></a>
+                                <a href="#"><img src="__HIMG__/display_mode_grid_act.gif" alt=""></a>
+                                <a href="#"><img src="__HIMG__/display_mode_text.gif" alt=""></a>&nbsp;&nbsp;
+
+                                <a href="#"><img src="__HIMG__/goods_id_DESC.gif"  alt="按上架时间排序"></a>
+                                <a href="#"><img src="__HIMG__/shop_price_default.gif" alt="按价格排序"></a>
+                                <a href="#"><img src="__HIMG__/last_update_default.gif" alt="按更新时间排序"></a>
+                                <input name="category" value="3" type="hidden" />
+                                <input name="display" value="grid" id="display" type="hidden" />
+                                <input name="brand" value="0" type="hidden" />
+                                <input name="price_min" value="0" type="hidden" />
+                                <input name="price_max" value="0" type="hidden" />
+                                <input name="filter_attr" value="0" type="hidden" />
+                                <input name="page" value="1" type="hidden" />
+                                <input name="sort" value="goods_id" type="hidden" />
+                                <input name="order" value="DESC" type="hidden" />
+                            </form>
+                        </h3>
+                        <form name="compareForm" action="compare.php" method="post" onsubmit="return compareGoods(this);">
+                            <div class="clearfix goodsBox" style="border: medium none; padding: 11px 0pt 10px 5px;">
+                                
+                               
+                                
+                               <?php  foreach($goodsdata as  $v){?>
+                                <div class="goodsItem">
+                                    <a href="__GROUP__/Goods/detail/id/<?php echo $v['id']; ?>"><img src="__UPLOAD__/<?php echo $v['goods_thumb']; ?>" alt="诺基亚5320..." class="goodsimg"></a><br />
+                                    <p><a href="__GROUP__/Goods/detail/id/<?php echo $v['id']; ?>" title="<?php echo $v['goods_name']; ?>"><?php echo $v['goods_name']; ?></a></p>
+                                    <font class="market_s">￥<?php echo $v['shop_price']*1.2; ?>元</font><br />
+                                    <font class="shop_s">￥<?php echo $v['shop_price']; ?>元</font><br />
+                                    <a href="#"><img src="__HIMG__/goumai.gif"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="#;"><img src="__HIMG__/shoucang.gif"></a>
+                                </div>
+                                <?php  }?>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="blank5"></div>
+                <form name="selectPageForm" action="/category.php" method="get">
+                    
+                        {$page}   
+                      
+                </form>
+            </div>  
+
+        </div>
+
+        </div>
+
+        <div class="blank"></div>
+        <include  file='Public:foot'/>
+    </body>
+</html>

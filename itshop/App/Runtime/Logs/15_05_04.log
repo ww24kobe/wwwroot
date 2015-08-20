@@ -1,0 +1,582 @@
+[ 2015-05-04T00:14:44+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/33
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004293s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001480s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.003958s ]
+NOTIC: [8] Undefined variable: session D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 32 行.
+SQL: SELECT * FROM `it_cart` WHERE ( session_id='' )  [ RunTime:0.001325s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 12 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=33 [ RunTime:0.000821s ]
+
+[ 2015-05-04T00:17:26+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/36
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004462s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001548s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004163s ]
+SQL: SELECT * FROM `it_cart` WHERE ( session_id='n2ukitpd4jjloi0rr7fa570hv7' )  [ RunTime:0.001431s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 12 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=36 [ RunTime:0.000974s ]
+
+[ 2015-05-04T00:17:29+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/35
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004421s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001455s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004725s ]
+SQL: SELECT * FROM `it_cart` WHERE ( session_id='n2ukitpd4jjloi0rr7fa570hv7' )  [ RunTime:0.001430s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 12 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=35 [ RunTime:0.000894s ]
+
+[ 2015-05-04T00:25:03+08:00 ] 127.0.0.1 /index.php/member/login.html
+ERR: 无法加载模块:Member
+
+[ 2015-05-04T00:25:24+08:00 ] 127.0.0.1 /index.php/member/login.html
+ERR: 无法加载模块:Member
+
+[ 2015-05-04T00:42:34+08:00 ] 127.0.0.1 /index.php/Order/checkout
+ERR: Action:writeaddress您所请求的方法不存在！
+
+[ 2015-05-04T00:43:21+08:00 ] 127.0.0.1 /index.php/Order/checkout
+ERR: 模板不存在[./App/Tpl/Home/Order/writeaddress.html]
+
+[ 2015-05-04T00:43:23+08:00 ] 127.0.0.1 /index.php/Order/checkout
+ERR: 模板不存在[./App/Tpl/Home/Order/writeaddress.html]
+
+[ 2015-05-04T00:51:09+08:00 ] 127.0.0.1 /index.php/Order/checkout
+ERR: 模板不存在[./App/Tpl/Home/Order/checkout.html]
+
+[ 2015-05-04T00:52:37+08:00 ] 127.0.0.1 /index.php/order/flow
+ERR: 非法操作:flow
+
+[ 2015-05-04T01:00:58+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/39
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004043s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000534s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004041s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000545s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 12 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=39 [ RunTime:0.000600s ]
+
+[ 2015-05-04T16:30:37+08:00 ] 127.0.0.1 /index.php/order/flow
+ERR: 非法操作:flow
+
+[ 2015-05-04T17:03:51+08:00 ] 127.0.0.1 /index.php/order/flow
+ERR: 模板不存在[./App/Tpl/Home/Order/flow.html]
+
+[ 2015-05-04T17:06:57+08:00 ] 127.0.0.1 /index.php/order/done
+ERR: 模板不存在[./App/Tpl/Home/Order/done.html]
+
+[ 2015-05-04T17:08:12+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/39
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004309s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000880s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004694s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000958s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 12 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=39 [ RunTime:0.000843s ]
+
+[ 2015-05-04T17:16:44+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/41
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004450s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000701s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004433s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000615s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 12 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=41 [ RunTime:0.000717s ]
+
+[ 2015-05-04T17:17:30+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/41
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.003955s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000375s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004815s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000336s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 12 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=41 [ RunTime:0.000458s ]
+
+[ 2015-05-04T17:44:30+08:00 ] 127.0.0.1 /index.php/order/flow
+ERR: Action:startlock您所请求的方法不存在！
+
+[ 2015-05-04T17:50:33+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-05-04T17:50:33+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-05-04T17:50:33+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-05-04T17:50:42+08:00 ] 127.0.0.1 /index.php/admin/index/orderList.html
+ERR: 非法操作:orderlist
+
+[ 2015-05-04T17:50:49+08:00 ] 127.0.0.1 /index.php/admin/index/orderList.html
+ERR: 非法操作:orderlist
+
+[ 2015-05-04T18:07:05+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004267s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000471s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004415s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.001649s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 16 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=1 [ RunTime:0.001203s ]
+
+[ 2015-05-04T18:07:13+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004505s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000951s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.005069s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000782s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 16 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=1 [ RunTime:0.000650s ]
+
+[ 2015-05-04T18:07:14+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004131s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000555s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004289s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.001266s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 16 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=1 [ RunTime:0.001086s ]
+
+[ 2015-05-04T18:07:19+08:00 ] 127.0.0.1 /index.php/cart/updatecartdec/id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004308s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001014s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.005014s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.001156s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 16 行.
+SQL: update it_cart set goods_number=goods_number-1 where id=1 [ RunTime:0.039746s ]
+
+[ 2015-05-04T19:03:35+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004317s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000802s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004926s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.001461s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 16 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=3 [ RunTime:0.000689s ]
+
+[ 2015-05-04T19:03:36+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004074s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000396s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.003810s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000546s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 16 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=2 [ RunTime:0.000439s ]
+
+[ 2015-05-04T19:07:55+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004006s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000441s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.003879s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000440s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 16 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=4 [ RunTime:0.000562s ]
+
+[ 2015-05-04T19:08:03+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/5
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004535s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001257s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004272s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.001152s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 16 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=5 [ RunTime:0.000764s ]
+
+[ 2015-05-04T19:08:04+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/5
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004051s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000362s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004423s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000589s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 16 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=5 [ RunTime:0.000421s ]
+
+[ 2015-05-04T19:13:29+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004671s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000990s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004479s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.001017s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 16 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=1 [ RunTime:0.000932s ]
+
+[ 2015-05-04T19:13:41+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.003982s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000559s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004273s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000737s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 16 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=2 [ RunTime:0.000593s ]
+
+[ 2015-05-04T19:13:41+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.003952s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000506s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004250s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000818s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 16 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=2 [ RunTime:0.000508s ]
+
+[ 2015-05-04T20:53:43+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-05-04T20:53:43+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-05-04T20:53:43+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-05-04T20:53:50+08:00 ] 127.0.0.1 /index.php/admin/index/goodsList.html
+ERR: 非法操作:goodslist
+
+[ 2015-05-04T22:24:10+08:00 ] 127.0.0.1 /index.php/admin/index/goodsList.html
+ERR: 非法操作:goodslist
+
+[ 2015-05-04T22:26:05+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004307s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000823s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000612s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004829s ]
+SQL: SELECT * FROM `it_cart` WHERE ( session_id='p8l93tbrqtbgrbl5mc23ojb557' )  [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004390s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15) ) LIMIT 5   [ RunTime:0.000641s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 17 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=1 [ RunTime:0.000681s ]
+
+[ 2015-05-04T22:36:19+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004511s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000812s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004126s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004839s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16) ) LIMIT 5   [ RunTime:0.000798s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 17 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=2 [ RunTime:0.000858s ]
+
+[ 2015-05-04T22:36:23+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004733s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000985s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004676s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004995s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16) ) LIMIT 5   [ RunTime:0.001126s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 17 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=2 [ RunTime:0.000813s ]
+
+[ 2015-05-04T22:36:24+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004137s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000958s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004602s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.005260s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16) ) LIMIT 5   [ RunTime:0.001013s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 17 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=2 [ RunTime:0.000605s ]
+
+[ 2015-05-04T22:36:30+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.003986s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000427s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004227s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004216s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16) ) LIMIT 5   [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 17 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=2 [ RunTime:0.000537s ]
+
+[ 2015-05-04T22:36:32+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007055s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000869s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.008097s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008730s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16) ) LIMIT 5   [ RunTime:0.000815s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 17 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=1 [ RunTime:0.000728s ]
+
+[ 2015-05-04T22:36:38+08:00 ] 127.0.0.1 /index.php/cart/updatecartdec/id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004542s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001256s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004650s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004586s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16) ) LIMIT 5   [ RunTime:0.000889s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 17 行.
+SQL: update it_cart set goods_number=goods_number-1 where id=2 [ RunTime:0.073033s ]
+
+[ 2015-05-04T22:36:55+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005054s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001047s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004425s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004457s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16) ) LIMIT 5   [ RunTime:0.000892s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 17 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=1 [ RunTime:0.000845s ]
+
+[ 2015-05-04T22:36:57+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004114s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000424s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004171s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004737s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16) ) LIMIT 5   [ RunTime:0.000367s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 17 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=2 [ RunTime:0.000903s ]
+
+[ 2015-05-04T22:36:58+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004772s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000745s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004432s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004959s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16) ) LIMIT 5   [ RunTime:0.000681s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 17 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=2 [ RunTime:0.000354s ]
+
+[ 2015-05-04T22:55:22+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/5
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004591s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001207s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004874s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=6 )  [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004850s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16,7) ) LIMIT 5   [ RunTime:0.001341s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=5 [ RunTime:0.001037s ]
+
+[ 2015-05-04T22:58:32+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/7
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004302s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000636s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004883s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=6 )  [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004736s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16,7) ) LIMIT 5   [ RunTime:0.000621s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=7 [ RunTime:0.000713s ]
+
+[ 2015-05-04T23:02:50+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/9
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004964s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000512s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004250s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=6 )  [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.005355s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16,7,8) ) LIMIT 5   [ RunTime:0.000496s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=9 [ RunTime:0.000626s ]
+
+[ 2015-05-04T23:32:44+08:00 ] 127.0.0.1 /index.php/Cart/checkout
+ERR: 非法操作:checkout
+
+[ 2015-05-04T23:45:32+08:00 ] 127.0.0.1 /index.php/Cart/User/login
+ERR: 非法操作:user
+
+[ 2015-05-04T23:46:34+08:00 ] 127.0.0.1 /index.php/Cart/User/login
+ERR: 非法操作:user
+
+[ 2015-05-04T23:46:45+08:00 ] 127.0.0.1 /index.php/Cart/user/login
+ERR: 非法操作:user
+
+[ 2015-05-04T23:48:31+08:00 ] 127.0.0.1 /index.php/Cart/user/login
+ERR: 非法操作:user
+
+[ 2015-05-04T23:48:43+08:00 ] 127.0.0.1 /index.php/index.php/User/login.html
+ERR: 无法加载模块:Index.php
+
+[ 2015-05-04T23:49:09+08:00 ] 127.0.0.1 /index.php/index.php/User/login.html
+ERR: 无法加载模块:Index.php
+
+[ 2015-05-04T23:49:22+08:00 ] 127.0.0.1 /index.php/index.php/User/login.html
+ERR: 无法加载模块:Index.php
+
+[ 2015-05-04T23:49:46+08:00 ] 127.0.0.1 /index.php/index.php/User/login.html
+ERR: 无法加载模块:Index.php
+
+[ 2015-05-04T23:50:22+08:00 ] 127.0.0.1 /index.php/index.php/User/login.html
+ERR: 无法加载模块:Index.php
+
+[ 2015-05-04T23:50:49+08:00 ] 127.0.0.1 /index.php/index.php/
+ERR: 无法加载模块:Index.php
+
+[ 2015-05-04T23:51:28+08:00 ] 127.0.0.1 /index.php/Cart/User/login
+ERR: 非法操作:user
+
+[ 2015-05-04T23:52:30+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/14
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004869s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000489s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004726s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004780s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16,7,8) ) LIMIT 5   [ RunTime:0.000443s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=14 [ RunTime:0.000527s ]
+
+[ 2015-05-04T23:54:17+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/14
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004569s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000955s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004287s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.005001s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16,7,8) ) LIMIT 5   [ RunTime:0.001005s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=14 [ RunTime:0.000797s ]
+
+[ 2015-05-04T23:54:20+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/14
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004077s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000438s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004186s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004414s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16,7,8) ) LIMIT 5   [ RunTime:0.001265s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=14 [ RunTime:0.001541s ]
+
+[ 2015-05-04T23:54:20+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/14
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004116s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000755s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004297s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004574s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16,7,8) ) LIMIT 5   [ RunTime:0.000707s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=14 [ RunTime:0.000658s ]
+
+[ 2015-05-04T23:54:20+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/14
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.004602s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001058s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.004276s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=5 )  [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.005257s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (17,1,9,15,16,7,8) ) LIMIT 5   [ RunTime:0.000999s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=14 [ RunTime:0.000665s ]
+

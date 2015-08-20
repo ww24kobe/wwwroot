@@ -1,0 +1,725 @@
+[ 2015-02-08T00:00:07+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006832s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000242s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001764s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2015-02-08T00:00:07+08:00 ] 127.0.0.1 /index.php/admin/index/top
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000821s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011163s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000809s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003598s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001237s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2015-02-08T00:00:07+08:00 ] 127.0.0.1 /index.php/admin/index/menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001384s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018355s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001516s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000892s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000542s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003850s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001652s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001818s ]
+
+[ 2015-02-08T00:00:07+08:00 ] 127.0.0.1 /index.php/admin/index/main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: arr D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\2ad3618d67075988ac943fe5d6b7b9e4.php 第 53 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012569s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001027s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000854s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000981s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2015-02-08T00:00:07+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001078s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+ERR: 非法操作:js
+
+[ 2015-02-08T00:00:07+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+ERR: 非法操作:js
+
+[ 2015-02-08T00:00:07+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+ERR: 非法操作:js
+
+[ 2015-02-08T00:00:08+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000502s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000334s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000740s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002251s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000704s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2015-02-08T00:04:16+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008457s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000482s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000451s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002093s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2015-02-08T00:04:17+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001476s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027839s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000531s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002629s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2015-02-08T00:04:29+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000711s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\17c2ab2a74ce9d288cfd9f968bfc2c79.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041471s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000516s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000427s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001787s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-02-08T00:04:30+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001081s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010842s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000559s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002287s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000923s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2015-02-08T00:04:31+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memlist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\2eb6b7f28ee599e7c3bf53c902f85241.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011214s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000474s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001791s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-02-08T00:04:33+08:00 ] 127.0.0.1 /index.php/admin/index/brandList.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001224s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+ERR: 无法加载模块:index
+
+[ 2015-02-08T00:04:34+08:00 ] 127.0.0.1 /index.php/admin/GoodsType/typeList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000935s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `it_goods_type` [ RunTime:0.004321s ]
+SQL: select a.*,count(b.id) count  from it_goods_type a  left join it_attribute b on a.id=b.type_id group by a.id [ RunTime:0.001175s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\bc0f9bd476aeda18b815ea05067a0480.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\bc0f9bd476aeda18b815ea05067a0480.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\bc0f9bd476aeda18b815ea05067a0480.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\bc0f9bd476aeda18b815ea05067a0480.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\bc0f9bd476aeda18b815ea05067a0480.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\bc0f9bd476aeda18b815ea05067a0480.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\bc0f9bd476aeda18b815ea05067a0480.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\bc0f9bd476aeda18b815ea05067a0480.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\bc0f9bd476aeda18b815ea05067a0480.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\bc0f9bd476aeda18b815ea05067a0480.php 第 35 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037940s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000777s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000294s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002138s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000783s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2015-02-08T00:04:40+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001239s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011181s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000427s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000401s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001797s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000635s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2015-02-08T00:04:42+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008656s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000535s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000384s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001848s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2015-02-08T00:07:12+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011030s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002059s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-02-08T00:12:49+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009093s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000479s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000467s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002228s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000818s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2015-02-08T00:12:50+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memlist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001014s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.004315s ]
+SQL: SELECT * FROM `it_member_level`  [ RunTime:0.000519s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008699s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000341s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001674s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2015-02-08T00:13:56+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010367s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000453s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000338s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001666s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000565s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2015-02-08T00:13:58+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memlist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.004298s ]
+SQL: SELECT * FROM `it_member_level`  [ RunTime:0.000489s ]
+
+[ 2015-02-08T00:14:30+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001306s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.004532s ]
+SQL: SELECT * FROM `it_member_level`  [ RunTime:0.000777s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: memdata D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009031s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000341s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001746s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2015-02-08T00:14:31+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001208s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008852s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000427s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001848s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000621s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2015-02-08T00:14:45+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.004936s ]
+SQL: INSERT INTO `it_member_level` (`level_name`,`min_points`,`max_points`,`rate`) VALUES ('初级会员',0,5000,98) [ RunTime:0.079555s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012682s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000676s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000515s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002573s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001038s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2015-02-08T00:14:46+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000895s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.004078s ]
+SQL: SELECT * FROM `it_member_level`  [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: memdata D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007703s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000411s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000399s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2015-02-08T00:14:47+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009040s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000414s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002085s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000701s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2015-02-08T00:15:00+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memlist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.004444s ]
+SQL: SELECT * FROM `it_member_level`  [ RunTime:0.000988s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: rote D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 38 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009094s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000519s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000486s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002355s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000709s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2015-02-08T00:15:01+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001258s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011199s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001008s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000357s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002345s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-02-08T00:15:19+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000869s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.004626s ]
+SQL: INSERT INTO `it_member_level` (`level_name`,`min_points`,`max_points`,`rate`) VALUES ('中级会员',5000,10000,95) [ RunTime:0.076746s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020377s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000867s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000733s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003254s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001225s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2015-02-08T00:15:20+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.005098s ]
+SQL: SELECT * FROM `it_member_level`  [ RunTime:0.000805s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: rote D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 38 行.
+NOTIC: [8] Undefined index: rote D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 38 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009354s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000499s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000463s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001791s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000549s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2015-02-08T00:15:22+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009266s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000545s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000331s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002011s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-02-08T00:15:31+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memlist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000852s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.004833s ]
+SQL: SELECT * FROM `it_member_level`  [ RunTime:0.001449s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: rote D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 38 行.
+NOTIC: [8] Undefined index: rote D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 38 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009104s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000454s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000339s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001686s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2015-02-08T00:15:33+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000739s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007511s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000432s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000330s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001654s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000581s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-02-08T00:16:06+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001240s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.004411s ]
+SQL: INSERT INTO `it_member_level` (`level_name`,`min_points`,`max_points`,`rate`) VALUES ('高级会员',10000,15000,90) [ RunTime:0.053703s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010809s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000544s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000455s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002124s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000699s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2015-02-08T00:16:07+08:00 ] 127.0.0.1 /index.php/admin/MemberLevel/memList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `it_member_level` [ RunTime:0.004461s ]
+SQL: SELECT * FROM `it_member_level`  [ RunTime:0.001064s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: rote D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 38 行.
+NOTIC: [8] Undefined index: rote D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 38 行.
+NOTIC: [8] Undefined index: rote D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 35 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\f30639c93d1b3efaec4ae79e1094b4c2.php 第 38 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008489s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000483s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000344s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000242s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001645s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000589s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000637s ]
+

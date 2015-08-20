@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="Generator" content="YONGDA v1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Keywords" content="" />
+        <meta name="Description" content="" />
+
+        <title>用户中心_YONGDA商城 - Powered by YongDa</title>
+
+        <link href="__HCSS__/style.css" rel="stylesheet" type="text/css" />
+    <js href="__JS__/jquery.js" />
+    <js href="__JS__/ckeditor/ckeditor.js" />
+   		
+    
+    </head>
+    <body>
+        <include file="Public:head"/>
+        <div class="block box">
+            <div class="blank"></div>
+            <div id="ur_here">
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 在线留言
+            </div>
+        </div>
+
+        <div class="blank"></div>
+        <div class="blank"></div>
+
+        <div class="block clearfix">
+            <div class="AreaL">
+                <div class="box">
+                    <div class="box_1">
+                        <div class="userCenterBox">
+                            <div class="userMenu">
+                               <include file="Public:ucenter"/>
+                            </div>      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="AreaR">
+                <div class="box">
+                    <div class="box_1">
+                        <div class="userCenterBox boxCenterList clearfix" >
+                            <h5><span>在线留言</span></h5>
+                            <div class="blank"></div>
+                            <form action="__ACTION__" method="post" name="theForm">
+                                <table bgcolor="#dddddd" border="0" cellpadding="5" cellspacing="1" width="100%">
+                                 <textarea id="ckeditor" name="content" > </textarea> <br/>
+                                <div style="text-align:center"> <input type="submit" value="提交留言"/> </div>
+                                </table>
+                                    <input type="hidden" name="user_id" value="<?php  echo $_SESSION['user_id']?>" />
+                                    <input type="hidden" name="username" value="<?php  echo $_SESSION['username']?>" />
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <include  file="Public:foot"/>
+    </body>
+</html>
+<script >
+          CKEDITOR.replace('ckeditor',{
+		  //customConfig : 'config_user.js',
+		  //自定义配置
+		  width:700,
+		  height:230,
+		// uiColor:'red'
+
+		  });  
+ </script>

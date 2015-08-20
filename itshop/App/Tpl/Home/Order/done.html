@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="Generator" content="YONGDA v1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Keywords" content="" />
+        <meta name="Description" content="" />
+
+        <title>爱购商城 - Powered by Wangwei</title>
+
+        <link href="__HCSS__/style.css" rel="stylesheet" type="text/css" />
+
+    </head>
+    <body>
+  <include file="Public:head"/>
+
+        <div class="block box">
+            <div class="blank"></div>
+            <div id="ur_here">
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 订单完成
+            </div>
+        </div>
+
+        <div class="blank"></div>
+        <div class="blank"></div>
+
+        <div class="block">
+            <div class="flowBox" style="margin: 0pt auto 70px;">
+                <h6 style="text-align: center; height: 30px; line-height: 30px;">感谢您在本店购物！您的订单已提交成功，请记住您的订单号: <font style="color: red;"><?php echo $v_oid;?></font></h6>
+                <table style="border: 1px solid rgb(221, 221, 221); margin: 20px auto;" align="center" bgcolor="#ffffff" border="0" cellpadding="15" cellspacing="0" width="99%">
+                    <tbody>
+                    <tr>
+                            <td align="center" bgcolor="#ffffff">
+                                您选定的配送方式为: <strong>城际快递</strong>，您选定的支付方式为: <strong>银行汇款/转帐</strong>。您的应付款金额为: <strong>￥<?php echo $total_price;?>元</strong>
+                            </td>
+                     </tr>
+                     <tr>
+                            <td align="center" bgcolor="#ffffff">
+                            <form  action="https://pay3.chinabank.com.cn/PayGate" method="post">
+                            <input type=hidden name=v_mid value="<?php echo $v_mid;?>">                  
+							<input type=hidden name="v_oid" value="<?php echo $v_oid;?>">
+							<input type=hidden name="v_amount" value="<?php echo $total_price;?>">       
+							<input type=hidden name=v_moneytype value="CNY">                
+							<input type=hidden name=v_url value="<?php echo $v_url;?>">
+							<input type=hidden name=v_md5info value="<?php echo $v_md5info;?>">   
+                            <input  type="submit" value="网银支付"/>
+                            </form>
+                            
+                            </td>
+                     </tr>
+                        
+                    </tbody>
+                    </table>
+                <p style="text-align: center; margin-bottom: 20px;">您可以 <a href="/">返回首页</a> 或去 <a href="#">用户中心</a></p>
+            </div>
+        </div>
+
+        <div class="blank"></div>
+        
+    </body>
+</html>

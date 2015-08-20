@@ -1,0 +1,2896 @@
+[ 2015-06-05T21:10:55+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041630s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.068599s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.024835s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.002269s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.039785s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.161764s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.194502s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.012811s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.003098s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.002813s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.003202s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.002875s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.002265s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.193684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.193813s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015279s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001039s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018044s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2015-06-05T21:11:12+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.021843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.021971s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.013047s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001092s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000553s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007700s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001041s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024248s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000707s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002160s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001238s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2015-06-05T21:11:23+08:00 ] 127.0.0.1 /index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000701s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007372s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001188s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001086s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.013720s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001501s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052318s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000723s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000353s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002201s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2015-06-05T21:12:56+08:00 ] 127.0.0.1 /index.php/user/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001063s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006992s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000468s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000331s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006637s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006632s ]
+SQL: SELECT * FROM `it_member` WHERE ( `username` = 'hang' ) LIMIT 1   [ RunTime:0.000597s ]
+SQL: SELECT * FROM `it_member` WHERE ( `email` = '810754034@qq.co' ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: INSERT INTO `it_member` (`username`,`password`,`email`) VALUES ('hang','e10adc3949ba59abbe56e057f20f883e','810754034@qq.co') [ RunTime:0.151569s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039663s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000807s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000682s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003161s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2015-06-05T21:12:57+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000709s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.008873s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001148s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006440s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001040s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.005579s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.001032s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000604s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000652s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000599s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000624s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000801s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019248s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000933s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000714s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002746s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000645s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2015-06-05T21:13:02+08:00 ] 127.0.0.1 /index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000744s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006786s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001483s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000764s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007389s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001278s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011117s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000358s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001694s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2015-06-05T21:13:57+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000747s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007326s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000359s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000268s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006520s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000468s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011101s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000535s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000350s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001876s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001676s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001803s ]
+
+[ 2015-06-05T21:14:07+08:00 ] 127.0.0.1 /index.php/user/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.012431s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001041s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000883s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.010525s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001101s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007174s ]
+NOTIC: [8] Undefined index: c D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: act D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 32 行.
+SQL: SELECT * FROM `it_member` WHERE ( username='hang' ) LIMIT 1   [ RunTime:0.001088s ]
+SQL: UPDATE `it_member` SET `last_time`=1433510047,`last_ip`='127.0.0.1' WHERE ( id=12 ) [ RunTime:0.152501s ]
+NOTIC: [8] Undefined index: remember D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007671s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000407s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000347s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001579s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2015-06-05T21:14:08+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007478s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000988s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.008995s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=12 )  [ RunTime:0.000983s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007221s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000728s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.006207s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.000838s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000713s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000633s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000814s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000713s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000837s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017911s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000884s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000396s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002102s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000675s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2015-06-05T21:14:34+08:00 ] 127.0.0.1 /index.php/User/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006295s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001662s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006285s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=12 )  [ RunTime:0.001412s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006101s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001296s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006706s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.001974s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.105069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105182s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001180s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000716s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003293s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001041s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2015-06-05T21:14:36+08:00 ] 127.0.0.1 /index.php/User/ucenter3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001571s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001715s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006006s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001384s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007910s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=12 )  [ RunTime:0.001811s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007394s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001271s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_order_info` [ RunTime:0.006574s ]
+SQL: SELECT it_order_info.*,b.info FROM `it_order_info` LEFT JOIN it_order_status b on it_order_info.status=b.id   WHERE ( it_order_info.user_id=12 )  [ RunTime:0.132085s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 223 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Tpl/Home/Pulic/foot.html): failed to open stream: No such file or directory D:\server\apache\htdocs\itshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\0508e772d40d0ee66ebd00431e44a8d1.php 第 203 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066046s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000525s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000360s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001678s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000961s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2015-06-05T21:14:44+08:00 ] 127.0.0.1 /index.php/User/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000856s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006925s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001362s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.008397s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=12 )  [ RunTime:0.001092s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007089s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001389s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007183s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.001209s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013414s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000701s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001860s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2015-06-05T21:14:45+08:00 ] 127.0.0.1 /index.php/User/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006606s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001349s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006868s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=12 )  [ RunTime:0.001124s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006509s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001149s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+
+[ 2015-06-05T21:14:46+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000692s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006919s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001434s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000703s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006518s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001390s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.005976s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.001884s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.002012s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.001978s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.005689s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.002888s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.002681s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020065s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001379s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002786s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001148s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2015-06-05T21:14:51+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000917s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007072s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001134s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001154s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006321s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000968s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011601s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000384s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000288s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001881s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2015-06-05T21:14:52+08:00 ] 127.0.0.1 /index.php/user/findpass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001135s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006370s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000564s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000250s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007158s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000318s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030877s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001204s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000649s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003511s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004216s ]
+
+[ 2015-06-05T21:15:23+08:00 ] 127.0.0.1 /index.php/user/findpass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.014892s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000459s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000443s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008222s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000375s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.009738s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='hang' and  email='810754034@qq.com' ) LIMIT 1   [ RunTime:0.000872s ]
+SQL: UPDATE `it_member` SET `validate`='5571a0e443ef6' WHERE ( `id` = 12 ) [ RunTime:0.051791s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018359s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000610s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000662s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002655s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2015-06-05T21:15:24+08:00 ] 127.0.0.1 /index.php/user/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000868s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006805s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001091s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000711s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.010072s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000570s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011515s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000607s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000355s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001755s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001479s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2015-06-05T21:16:57+08:00 ] 127.0.0.1 /index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.008285s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.002010s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000899s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008279s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001607s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012142s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000622s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000355s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001776s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000910s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2015-06-05T21:17:21+08:00 ] 127.0.0.1 /index.php/user/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.009707s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000845s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000689s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008505s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000669s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006646s ]
+SQL: SELECT * FROM `it_member` WHERE ( `username` = 'wei' ) LIMIT 1   [ RunTime:0.000835s ]
+SQL: SELECT * FROM `it_member` WHERE ( `email` = '1259481020@qq.com' ) LIMIT 1   [ RunTime:0.000472s ]
+SQL: INSERT INTO `it_member` (`username`,`password`,`email`) VALUES ('wei','e10adc3949ba59abbe56e057f20f883e','1259481020@qq.com') [ RunTime:0.085315s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001104s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000689s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003672s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001306s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001416s ]
+
+[ 2015-06-05T21:17:22+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001071s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006462s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000296s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000279s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006382s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000367s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.005675s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.000571s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000464s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000461s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000451s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000457s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017282s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000939s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000393s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002213s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002023s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002133s ]
+
+[ 2015-06-05T21:17:25+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007620s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001048s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000591s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007733s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001003s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014892s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000493s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003440s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003548s ]
+
+[ 2015-06-05T21:17:33+08:00 ] 127.0.0.1 /index.php/user/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000793s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007448s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001031s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000696s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007717s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001034s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007218s ]
+NOTIC: [8] Undefined index: c D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: act D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 32 行.
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001261s ]
+SQL: UPDATE `it_member` SET `last_time`=1433510253,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.063236s ]
+NOTIC: [8] Undefined index: remember D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021656s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001338s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000885s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000585s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004302s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001591s ]
+
+[ 2015-06-05T21:17:34+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006176s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000522s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006058s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000862s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006764s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000628s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.005980s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.000922s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000636s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000660s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000654s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000654s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017814s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000961s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000416s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002214s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000887s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-06-05T21:17:37+08:00 ] 127.0.0.1 /index.php/User/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001082s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007065s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001588s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007435s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001333s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008784s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001236s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+
+[ 2015-06-05T21:17:37+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000697s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007267s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001020s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000469s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.005979s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000864s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.005341s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.001438s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000890s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.001301s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000999s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000639s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019048s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000997s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000398s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002241s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2015-06-05T21:17:39+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005626s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000795s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000576s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006395s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000719s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012547s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000649s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000361s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001800s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2015-06-05T21:17:41+08:00 ] 127.0.0.1 /index.php/user/findpass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005809s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000973s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000454s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007037s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000942s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013115s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000878s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000379s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002072s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001068s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2015-06-05T21:18:03+08:00 ] 127.0.0.1 /index.php/user/findpass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007222s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.009312s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000256s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006257s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' and  email='1259481020@qq.com' ) LIMIT 1   [ RunTime:0.000551s ]
+SQL: UPDATE `it_member` SET `validate`='5571a1890240b' WHERE ( `id` = 13 ) [ RunTime:0.092641s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013412s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000666s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000548s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000407s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002496s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2015-06-05T21:18:05+08:00 ] 127.0.0.1 /index.php/user/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007675s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001176s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000807s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007472s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001046s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011784s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000628s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001771s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2015-06-05T21:18:18+08:00 ] 127.0.0.1 /index.php/User/active/id/13/validate/5571a1890240b
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000926s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006782s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001519s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000687s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006608s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001736s ]
+SQL: UPDATE `it_member` SET `password`='82d462157f8a262c98fb8519b0fce93e' WHERE ( `id` = 13 ) [ RunTime:0.071641s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019859s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000633s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002678s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001004s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2015-06-05T21:18:19+08:00 ] 127.0.0.1 /index.php/user/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000700s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.010749s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000808s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000898s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016036s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000864s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000526s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002575s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000862s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2015-06-05T21:18:29+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007363s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.002201s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001348s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016806s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000891s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000504s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002447s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001159s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2015-06-05T21:18:34+08:00 ] 127.0.0.1 /index.php/user/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006498s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001171s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001132s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.008193s ]
+NOTIC: [8] Undefined index: c D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: act D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 32 行.
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001535s ]
+SQL: UPDATE `it_member` SET `last_time`=1433510314,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.049098s ]
+NOTIC: [8] Undefined index: remember D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008856s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000530s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000361s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000255s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002299s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000728s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2015-06-05T21:18:35+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001051s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006040s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000352s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006025s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000297s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.006119s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.005958s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000305s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000299s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000294s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 327 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017026s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000805s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000360s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001986s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000637s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2015-06-05T21:18:37+08:00 ] 127.0.0.1 /index.php/User/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001304s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.018689s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000897s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006543s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000983s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006790s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001036s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014076s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000708s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002274s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000740s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2015-06-05T21:18:38+08:00 ] 127.0.0.1 /index.php/User/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005881s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000530s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007262s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000455s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007239s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001279s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012183s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001811s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2015-06-05T21:18:40+08:00 ] 127.0.0.1 /index.php/User/updatepass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006947s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001623s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007513s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001594s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.008087s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001671s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077075s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001480s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000636s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004614s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002585s ]
+
+[ 2015-06-05T21:18:49+08:00 ] 127.0.0.1 /index.php/user/updatepass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006107s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001190s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007086s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001180s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006329s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001135s ]
+SQL: UPDATE `it_member` SET `password`='e10adc3949ba59abbe56e057f20f883e' WHERE ( `id` = 13 ) [ RunTime:0.103106s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018182s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000964s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000833s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000629s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003937s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001538s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.002862s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\server\apache\htdocs\itshop\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\server\apache\htdocs\itshop\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\server\apache\htdocs\itshop\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007912s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010066s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000294s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000051s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000010s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014115s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000049s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.017580s ]
+
+[ 2015-06-05T21:18:50+08:00 ] 127.0.0.1 /index.php/user/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000898s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007210s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001876s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007070s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.002238s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011556s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000575s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000349s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001721s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2015-06-05T21:18:55+08:00 ] 127.0.0.1 /index.php/user/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000688s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007544s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001842s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007847s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001845s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.009598s ]
+NOTIC: [8] Undefined index: c D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: act D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 32 行.
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.002623s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010942s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000394s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000335s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001630s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2015-06-05T21:19:02+08:00 ] 127.0.0.1 /index.php/user/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007075s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001916s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007155s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001736s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006820s ]
+NOTIC: [8] Undefined index: c D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: act D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 32 行.
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001701s ]
+SQL: UPDATE `it_member` SET `last_time`=1433510342,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.072601s ]
+NOTIC: [8] Undefined index: remember D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020435s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001178s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000972s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004386s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001456s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2015-06-05T21:19:03+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006857s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001284s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007292s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001271s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.006598s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008159s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.001520s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.001156s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000888s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000872s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.001137s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\5af3b772512f93bbed89b40e875139eb.php 第 327 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017097s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000786s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000361s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001959s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2015-06-05T21:19:28+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000745s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.008680s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001298s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000576s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007030s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000679s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012022s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000654s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000350s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001828s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000800s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2015-06-05T21:19:34+08:00 ] 127.0.0.1 /index.php/user/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.009035s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001355s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000962s ]
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: cartdata D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.009991s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000893s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.010507s ]
+NOTIC: [8] Undefined index: c D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: act D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 32 行.
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.000782s ]
+SQL: UPDATE `it_member` SET `last_time`=1433510374,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.092558s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011360s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000503s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002433s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2015-06-05T21:19:36+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006015s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000432s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007059s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000438s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.005936s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006062s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.000797s ]
+SQL: UPDATE `it_member` SET `last_time`=1433510376,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.044921s ]
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.013579s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.001027s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000980s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000975s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000904s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000975s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000956s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027062s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000772s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004095s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001192s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2015-06-05T21:19:49+08:00 ] 127.0.0.1 /index.php/Goods/detail/id/7
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001676s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001785s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005750s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001923s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006112s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001196s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007647s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.005994s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001476s ]
+SQL: UPDATE `it_member` SET `last_time`=1433510389,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.036057s ]
+SQL: SHOW COLUMNS FROM `it_brand` [ RunTime:0.007483s ]
+SQL: SELECT * FROM `it_brand`  [ RunTime:0.001722s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007951s ]
+SQL: SELECT * FROM `it_member`  [ RunTime:0.002090s ]
+SQL: SELECT * FROM `it_goods` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.001485s ]
+SQL: select a.level_name,ifnull(b.level_price,2300.00*a.rate/100) price  from it_member_level a 
+				 left  join it_member_price b on a.id=b.level_id and b.goods_id=7 [ RunTime:0.013212s ]
+SQL: select a.*,b.attr_name from it_goods_attr a left join it_attribute b on a.attr_id=b.id where a.goods_id=7 and b.attr_type=1 [ RunTime:0.016932s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `it_goods_comment` [ RunTime:0.008314s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods_comment` LIMIT 1   [ RunTime:0.001381s ]
+SQL: SELECT * FROM `it_goods_comment` WHERE ( goods_id=7 ) ORDER BY time desc LIMIT 5   [ RunTime:0.013526s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant 匿名用户 - assumed '匿名用户' D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\140d4bef95a7646a38fc6659117b66e1.php 第 329 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031083s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001138s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000428s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000291s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002592s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000791s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2015-06-05T21:19:52+08:00 ] 127.0.0.1 /index.php/User/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000728s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007114s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001832s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007457s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001482s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006868s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001498s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007177s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.002280s ]
+SQL: UPDATE `it_member` SET `last_time`=1433510392,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.059719s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.002652s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026596s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000968s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000879s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003092s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003041s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003219s ]
+
+[ 2015-06-05T21:19:54+08:00 ] 127.0.0.1 /index.php/User/ucenter3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000722s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006285s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001240s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007480s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001324s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007705s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007678s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001409s ]
+SQL: UPDATE `it_member` SET `last_time`=1433510394,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.109009s ]
+SQL: SHOW COLUMNS FROM `it_order_info` [ RunTime:0.014019s ]
+SQL: SELECT it_order_info.*,b.info FROM `it_order_info` LEFT JOIN it_order_status b on it_order_info.status=b.id   WHERE ( it_order_info.user_id=13 )  [ RunTime:0.001681s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\UserAction.class.php 第 223 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Tpl/Home/Pulic/foot.html): failed to open stream: No such file or directory D:\server\apache\htdocs\itshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\0508e772d40d0ee66ebd00431e44a8d1.php 第 203 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018297s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001038s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000725s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002868s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000631s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2015-06-05T21:22:20+08:00 ] 127.0.0.1 /index.php/Goods/detail/id/7
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.008145s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001351s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.005932s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001297s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_brand` [ RunTime:0.006478s ]
+SQL: SELECT * FROM `it_brand`  [ RunTime:0.001469s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006693s ]
+SQL: SELECT * FROM `it_member`  [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006640s ]
+SQL: SELECT * FROM `it_goods` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.002084s ]
+SQL: select a.level_name,ifnull(b.level_price,2300.00*a.rate/100) price  from it_member_level a 
+				 left  join it_member_price b on a.id=b.level_id and b.goods_id=7 [ RunTime:0.000346s ]
+SQL: select a.*,b.attr_name from it_goods_attr a left join it_attribute b on a.attr_id=b.id where a.goods_id=7 and b.attr_type=1 [ RunTime:0.000633s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `it_goods_comment` [ RunTime:0.006550s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods_comment` LIMIT 1   [ RunTime:0.000730s ]
+SQL: SELECT * FROM `it_goods_comment` WHERE ( goods_id=7 ) ORDER BY time desc LIMIT 5   [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\140d4bef95a7646a38fc6659117b66e1.php 第 162 行.
+NOTIC: [8] Use of undefined constant 匿名用户 - assumed '匿名用户' D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\140d4bef95a7646a38fc6659117b66e1.php 第 329 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019414s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000939s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000605s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002618s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001096s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2015-06-05T21:22:20+08:00 ] 127.0.0.1 /index.php/Goods/detail/id/graphics/zoomin.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.013231s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.004514s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.002915s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.015418s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001847s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.010779s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7) ) LIMIT 5   [ RunTime:0.002119s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_brand` [ RunTime:0.013500s ]
+SQL: SELECT * FROM `it_brand`  [ RunTime:0.002951s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.015757s ]
+SQL: SELECT * FROM `it_member`  [ RunTime:0.002237s ]
+SQL: SELECT * FROM `it_goods` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.001289s ]
+SQL: select a.level_name,ifnull(b.level_price,*a.rate/100) price  from it_member_level a 
+				 left  join it_member_price b on a.id=b.level_id and b.goods_id=0 [ RunTime:0.001399s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*a.rate/100) price  from it_member_level a 
+				 left  join it_member_price b o' at line 1
+ [ SQL语句 ] : select a.level_name,ifnull(b.level_price,*a.rate/100) price  from it_member_level a 
+				 left  join it_member_price b on a.id=b.level_id and b.goods_id=0
+SQL: select a.*,b.attr_name from it_goods_attr a left join it_attribute b on a.attr_id=b.id where a.goods_id=0 and b.attr_type=1 [ RunTime:0.001539s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `it_goods_comment` [ RunTime:0.007152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods_comment` LIMIT 1   [ RunTime:0.001535s ]
+SQL: SELECT * FROM `it_goods_comment` WHERE ( goods_id=0 ) ORDER BY time desc LIMIT 5   [ RunTime:0.001020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\140d4bef95a7646a38fc6659117b66e1.php 第 229 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\140d4bef95a7646a38fc6659117b66e1.php 第 243 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\140d4bef95a7646a38fc6659117b66e1.php 第 328 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020622s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000908s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000468s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002400s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2015-06-05T21:22:21+08:00 ] 127.0.0.1 /index.php/Goods/detail/id/graphics/zoomout.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000737s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006690s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001138s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.005745s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000943s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006467s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001274s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_brand` [ RunTime:0.006703s ]
+SQL: SELECT * FROM `it_brand`  [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006172s ]
+SQL: SELECT * FROM `it_member`  [ RunTime:0.001517s ]
+SQL: SELECT * FROM `it_goods` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: select a.level_name,ifnull(b.level_price,*a.rate/100) price  from it_member_level a 
+				 left  join it_member_price b on a.id=b.level_id and b.goods_id=0 [ RunTime:0.000408s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*a.rate/100) price  from it_member_level a 
+				 left  join it_member_price b o' at line 1
+ [ SQL语句 ] : select a.level_name,ifnull(b.level_price,*a.rate/100) price  from it_member_level a 
+				 left  join it_member_price b on a.id=b.level_id and b.goods_id=0
+SQL: select a.*,b.attr_name from it_goods_attr a left join it_attribute b on a.attr_id=b.id where a.goods_id=0 and b.attr_type=1 [ RunTime:0.000423s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `it_goods_comment` [ RunTime:0.005897s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods_comment` LIMIT 1   [ RunTime:0.001142s ]
+SQL: SELECT * FROM `it_goods_comment` WHERE ( goods_id=0 ) ORDER BY time desc LIMIT 5   [ RunTime:0.000552s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\140d4bef95a7646a38fc6659117b66e1.php 第 229 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\140d4bef95a7646a38fc6659117b66e1.php 第 243 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\140d4bef95a7646a38fc6659117b66e1.php 第 328 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020010s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000804s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000427s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002094s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2015-06-05T21:22:23+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000743s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.014277s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001028s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007299s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001055s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007476s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.000913s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SELECT `shop_price` FROM `it_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.006827s ]
+SQL: SELECT * FROM `it_attribute`  [ RunTime:0.001305s ]
+SQL: select attr_price from it_goods_attr where goods_id=7 and attr_value='黑色' [ RunTime:0.000600s ]
+SQL: select attr_price from it_goods_attr where goods_id=7 and attr_value='32G' [ RunTime:0.000826s ]
+SQL: SELECT * FROM `it_cart` WHERE ( goods_id=7 and goods_attr='颜色:黑色[10]<br/>内存:32G[50]' and session_id='jsn5m0oul2cfc28216n3sge3n4' )  [ RunTime:0.000632s ]
+SQL: insert into it_cart (goods_id,user_id,session_id,goods_name,shop_price,goods_number,goods_attr,goods_attr_price,goods_attr_id) values(7,13,'jsn5m0oul2cfc28216n3sge3n4','三星s5','2300.00','1','颜色:黑色[10]<br/>内存:32G[50]','60','1,2') [ RunTime:0.000726s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007647s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000410s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000352s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000583s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-06-05T21:22:24+08:00 ] 127.0.0.1 /index.php/Cart/showCart
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001480s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007528s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001447s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006639s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006820s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001347s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006638s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13  )  [ RunTime:0.001508s ]
+SQL: SELECT `goods_thumb` FROM `it_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000869s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059411s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000682s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001843s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-06-05T21:22:31+08:00 ] 127.0.0.1 /index.php/cart/updatecart/id/42
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001013s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006460s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001279s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006724s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007198s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001088s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: update it_cart set goods_number=goods_number+1 where id=42 [ RunTime:0.000961s ]
+
+[ 2015-06-05T21:22:32+08:00 ] 127.0.0.1 /index.php/Order/checkout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006855s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001208s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006947s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001368s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007478s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001112s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006334s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13  )  [ RunTime:0.001331s ]
+SQL: SELECT `goods_thumb` FROM `it_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.006395s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.001382s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047039s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000857s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002393s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000797s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2015-06-05T21:22:59+08:00 ] 127.0.0.1 /index.php/order/writeaddress
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.009061s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000731s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006227s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006264s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.000739s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.005878s ]
+SQL: INSERT INTO `it_address` (`province`,`city`,`district`,`consignee`,`email`,`address`,`zipcode`,`tel`,`mobile`,`sign_building`,`best_time`,`user_id`) VALUES ('江西','景德镇','珠山区','汪玮','1259481020','','','','','','',13) [ RunTime:0.001012s ]
+
+[ 2015-06-05T21:22:59+08:00 ] 127.0.0.1 /index.php/order/checkout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006768s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001394s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007189s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006688s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001642s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006788s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13  )  [ RunTime:0.001498s ]
+SQL: SELECT `goods_thumb` FROM `it_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.006514s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.001662s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Tpl/Home/Pbulic/foot.html): failed to open stream: No such file or directory D:\server\apache\htdocs\itshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+NOTIC: [8] Undefined index: number D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\dad064e11a3d4c39a253786f82a93378.php 第 69 行.
+NOTIC: [8] Undefined index: total_price D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\dad064e11a3d4c39a253786f82a93378.php 第 69 行.
+NOTIC: [8] Undefined index: number D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\dad064e11a3d4c39a253786f82a93378.php 第 75 行.
+NOTIC: [8] Undefined index: total_price D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\dad064e11a3d4c39a253786f82a93378.php 第 75 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048278s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000721s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000388s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001972s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2015-06-05T21:23:04+08:00 ] 127.0.0.1 /index.php/Order/updateaddress
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.008231s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001482s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006664s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006664s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001059s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.007465s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.001290s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025898s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000604s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000352s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001751s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2015-06-05T21:23:40+08:00 ] 127.0.0.1 /index.php/order/updateaddress
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000974s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006834s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001762s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007683s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006914s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001450s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.006629s ]
+SQL: UPDATE `it_address` SET `province`='江西',`city`='景德镇',`district`='昌江区',`consignee`='汪玮',`email`='1259481020@qq.com',`address`='老陶院',`zipcode`='333000',`tel`='443253',`mobile`='13455555555',`sign_building`='东方明珠',`best_time`='晚上',`user_id`=13 WHERE ( user_id=13 ) [ RunTime:0.001237s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008063s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000458s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000394s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001694s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2015-06-05T21:23:41+08:00 ] 127.0.0.1 /index.php/order/checkout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005796s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001407s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006633s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001202s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.005985s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001099s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006071s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13  )  [ RunTime:0.001266s ]
+SQL: SELECT `goods_thumb` FROM `it_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.006048s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.001433s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Tpl/Home/Pbulic/foot.html): failed to open stream: No such file or directory D:\server\apache\htdocs\itshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+NOTIC: [8] Undefined index: number D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\dad064e11a3d4c39a253786f82a93378.php 第 69 行.
+NOTIC: [8] Undefined index: total_price D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\dad064e11a3d4c39a253786f82a93378.php 第 69 行.
+NOTIC: [8] Undefined index: number D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\dad064e11a3d4c39a253786f82a93378.php 第 75 行.
+NOTIC: [8] Undefined index: total_price D:\server\apache\htdocs\itshop\App\Runtime\Cache\Home\dad064e11a3d4c39a253786f82a93378.php 第 75 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015544s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000801s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000371s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001988s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000728s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2015-06-05T21:23:49+08:00 ] 127.0.0.1 /index.php/order/flow
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001091s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006207s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001119s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006079s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006743s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001321s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: insert into it_order_info(consignee,address,tel,mobile,shipping_name,pay_name,goods_amount,user_id,order_sn,add_time) values('汪玮','江西景德镇昌江区老陶院','443253','13455555555','中通','余额支付','4720','13','or_14335106292574','1433510629') [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006132s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13  )  [ RunTime:0.001203s ]
+SQL: SELECT `goods_thumb` FROM `it_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000842s ]
+SQL: insert into it_order_goods(order_id,goods_id,goods_name,shop_price,goods_number,goods_attr,goods_attr_id) values('or_14335106292574','7','三星s5','2300.00','2','颜色:黑色[10]<br/>内存:32G[50]','1,2') [ RunTime:0.055893s ]
+SQL: DELETE FROM `it_cart` WHERE ( user_id='13' ) [ RunTime:0.002398s ]
+NOTIC: [8] Undefined variable: filename D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 45 行.
+NOTIC: [8] Undefined index:  D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 45 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, null given D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 46 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, null given D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 47 行.
+
+[ 2015-06-05T21:23:50+08:00 ] 127.0.0.1 /index.php/order/done/order_sn/or_14335106292574/total_price/4720.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000992s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006830s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001587s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007052s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001228s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008363s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001130s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019453s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000456s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000358s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001809s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000530s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2015-06-05T21:23:54+08:00 ] 127.0.0.1 /index.php/User/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000684s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007018s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000766s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006565s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000860s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007669s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.000858s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006931s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001290s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011594s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000344s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2015-06-05T21:23:56+08:00 ] 127.0.0.1 /index.php/User/ucenter3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007382s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001250s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007378s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001201s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007676s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001483s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_order_info` [ RunTime:0.008817s ]
+SQL: SELECT it_order_info.*,b.info FROM `it_order_info` LEFT JOIN it_order_status b on it_order_info.status=b.id   WHERE ( it_order_info.user_id=13 )  [ RunTime:0.002368s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Tpl/Home/Pulic/foot.html): failed to open stream: No such file or directory D:\server\apache\htdocs\itshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013011s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000351s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001049s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2015-06-05T21:23:57+08:00 ] 127.0.0.1 /index.php/user/ajax/sn/or_14335106292574
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000706s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.010374s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001240s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.008136s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001037s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007588s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.000589s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14335106292574' [ RunTime:0.001594s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037558s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000387s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000341s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001634s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-06-05T21:23:57+08:00 ] 127.0.0.1 /index.php/user/ajax/sn/or_14335106292574
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.008725s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001317s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.008008s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001452s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008179s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.000849s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: select a.*,b.goods_thumb  from  it_order_goods  a left  join it_goods b on a.goods_id=b.id where a.order_id='or_14335106292574' [ RunTime:0.000804s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008095s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000618s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001812s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000565s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-06-05T21:24:01+08:00 ] 127.0.0.1 /index.php/Order/done/order_sn/or_14335106292574/total_price/4720.00
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000728s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005702s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000464s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006105s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000546s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006455s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.000297s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009485s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000660s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000411s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000296s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002027s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000562s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2015-06-05T21:26:07+08:00 ] 127.0.0.1 /index.php/Order/receive
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001370s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005833s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000974s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006516s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000944s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006490s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.000930s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_order_info` [ RunTime:0.006139s ]
+SQL: UPDATE `it_order_info` SET `status`=6 WHERE ( user_id=13 ) [ RunTime:0.001143s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007776s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000465s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000440s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001901s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2015-06-05T21:26:08+08:00 ] 127.0.0.1 /index.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001369s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.067887s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000597s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.009486s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000967s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007315s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001455s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_advert` [ RunTime:0.006786s ]
+SQL: SELECT * FROM `it_advert` ORDER BY add_time  desc LIMIT 10   [ RunTime:0.001379s ]
+SQL: select * from it_goods where is_hot = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000834s ]
+SQL: select * from it_goods where is_new = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000817s ]
+SQL: select * from it_goods where is_best = 1 and is_sale = 1 and  is_delete=0 order by sort desc limit 3 [ RunTime:0.000807s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 and is_delete=0 and is_sale=1 ) ORDER BY sort asc LIMIT 3   [ RunTime:0.000903s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_sale=1 and  is_delete=0 ) LIMIT 5   [ RunTime:0.000875s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019646s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000941s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000401s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002164s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000755s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2015-06-05T21:26:17+08:00 ] 127.0.0.1 /index.php/User/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001036s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007268s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000290s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007148s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000587s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006413s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.000279s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006205s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011998s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000347s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001739s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-06-05T21:26:19+08:00 ] 127.0.0.1 /index.php/User/ucenter3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000852s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007275s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001716s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006699s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001889s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006595s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001587s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_order_info` [ RunTime:0.008392s ]
+SQL: SELECT it_order_info.*,b.info FROM `it_order_info` LEFT JOIN it_order_status b on it_order_info.status=b.id   WHERE ( it_order_info.user_id=13 )  [ RunTime:0.002097s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Tpl/Home/Pulic/foot.html): failed to open stream: No such file or directory D:\server\apache\htdocs\itshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014874s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000606s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000371s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001775s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000876s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2015-06-05T21:33:41+08:00 ] 127.0.0.1 /index.php/User/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006902s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000379s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.005683s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000390s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006996s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.005607s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.000617s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511220,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.078539s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001029s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014660s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000724s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000473s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002235s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-06-05T21:33:42+08:00 ] 127.0.0.1 /index.php/User/ucenter2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000913s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007223s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.002249s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.011522s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001691s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007530s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007668s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001644s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511222,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.061153s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.010846s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.001490s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036595s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001052s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001036s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003386s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001140s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2015-06-05T21:33:48+08:00 ] 127.0.0.1 /index.php/user/ucenter2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001122s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006908s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001353s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007581s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.002333s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008219s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.009557s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001362s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511228,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.088805s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.007750s ]
+SQL: UPDATE `it_address` SET `province`='江西',`city`='南昌',`district`='东湖区',`consignee`='汪玮',`email`='',`address`='老陶院',`zipcode`='333000',`tel`='443253',`mobile`='13455555555',`sign_building`='东方明珠',`best_time`='晚上' WHERE ( `id` = 14 ) [ RunTime:0.002117s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011636s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000368s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001922s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2015-06-05T21:33:49+08:00 ] 127.0.0.1 /index.php/user/ucenter2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006814s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001631s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.009096s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001692s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007163s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006271s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001698s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511229,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.029402s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.008977s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.001551s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014198s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000765s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000354s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002109s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002250s ]
+
+[ 2015-06-05T21:36:35+08:00 ] 127.0.0.1 /index.php/user/ucenter2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.008268s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001841s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006785s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.002350s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008298s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001703s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006848s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.002190s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511395,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.026823s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.007667s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.001834s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017270s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000852s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000353s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002672s ]
+
+[ 2015-06-05T21:36:37+08:00 ] 127.0.0.1 /index.php/user/ucenter2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007918s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.002709s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001497s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.010905s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001978s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008139s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007534s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001964s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511396,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.078625s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.008213s ]
+SQL: UPDATE `it_address` SET `province`='江西',`city`='南昌',`district`='东湖区',`consignee`='汪玮',`email`='',`address`='老陶院',`zipcode`='333000',`tel`='443253',`mobile`='13455555555',`sign_building`='东方明珠',`best_time`='晚上' WHERE ( `id` = 14 ) [ RunTime:0.001947s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011077s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000869s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000545s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002563s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000911s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2015-06-05T21:36:50+08:00 ] 127.0.0.1 /index.php/user/ucenter2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000991s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.008123s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001736s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.008806s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001676s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007654s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007225s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001937s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511410,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.050747s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.008269s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.001905s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018267s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000920s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002565s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000907s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2015-06-05T21:36:54+08:00 ] 127.0.0.1 /index.php/user/ucenter2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000793s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.016017s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001172s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.012542s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001835s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.010330s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.011381s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001475s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511414,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.034513s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.010169s ]
+SQL: UPDATE `it_address` SET `province`='江西',`city`='南昌',`district`='东湖区',`consignee`='汪玮',`email`='hgfhgf',`address`='老陶院',`zipcode`='333000',`tel`='443253',`mobile`='13455555555',`sign_building`='东方明珠',`best_time`='晚上' WHERE ( `id` = 14 ) [ RunTime:0.001367s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008353s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000565s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000338s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001710s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2015-06-05T21:36:56+08:00 ] 127.0.0.1 /index.php/user/ucenter2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005535s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000495s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.005366s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000575s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007700s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007351s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.000932s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511416,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.028155s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.006318s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.000732s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012781s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000892s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000372s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002080s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000839s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2015-06-05T21:37:12+08:00 ] 127.0.0.1 /index.php/user/ucenter2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000733s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.008601s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.002389s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006077s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001249s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.008390s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006930s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001066s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511432,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.054867s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.008296s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.001192s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015138s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000931s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002245s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001079s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2015-06-05T21:38:32+08:00 ] 127.0.0.1 /index.php/user/ucenter2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.009059s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001069s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006864s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001103s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006678s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.009112s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.001503s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511512,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.045224s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.007216s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.001049s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015773s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001004s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000621s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002807s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001227s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2015-06-05T21:38:35+08:00 ] 127.0.0.1 /index.php/user/ucenter2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.006439s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000528s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006388s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000485s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006374s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007133s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.000948s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511515,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.043201s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.007667s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014938s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000918s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000354s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002173s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001096s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2015-06-05T21:38:57+08:00 ] 127.0.0.1 /index.php/user/ucenter2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000740s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007250s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000606s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007402s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000582s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006308s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.010139s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.000918s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511537,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.077782s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.007365s ]
+SQL: UPDATE `it_address` SET `province`='江西',`city`='南昌',`district`='东湖区',`consignee`='汪玮',`email`='hgfhgf@163.com',`address`='老陶院',`zipcode`='333000',`tel`='443253',`mobile`='13455555555',`sign_building`='东方明珠',`best_time`='晚上' WHERE ( `id` = 14 ) [ RunTime:0.000990s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008793s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000636s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002131s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-06-05T21:38:58+08:00 ] 127.0.0.1 /index.php/user/ucenter2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000700s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007716s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001934s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006932s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001718s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.009089s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (27,33,8,7) ) LIMIT 5   [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007516s ]
+SQL: SELECT * FROM `it_member` WHERE ( username='wei' ) LIMIT 1   [ RunTime:0.002147s ]
+SQL: UPDATE `it_member` SET `last_time`=1433511538,`last_ip`='127.0.0.1' WHERE ( id=13 ) [ RunTime:0.038536s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.008032s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.001920s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014428s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000989s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000360s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002403s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001210s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2015-06-05T21:41:24+08:00 ] 127.0.0.1 /index.php/User/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.008421s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000413s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006658s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000358s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007876s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.000291s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.007128s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001690s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015902s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000660s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002124s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2015-06-05T21:44:35+08:00 ] 127.0.0.1 /index.php/User/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007490s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001512s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.006565s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001337s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006037s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.001100s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006182s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001191s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000785s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000433s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002636s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000983s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2015-06-05T21:44:36+08:00 ] 127.0.0.1 /index.php/User/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000812s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.007341s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.005693s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.000653s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.006385s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.000547s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_member` [ RunTime:0.006952s ]
+SQL: SELECT * FROM `it_member` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012010s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000623s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000361s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001780s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2015-06-05T21:44:38+08:00 ] 127.0.0.1 /index.php/User/ucenter2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000709s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005945s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.001135s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.007208s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=13 )  [ RunTime:0.001079s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007073s ]
+SQL: SELECT `id`,`goods_name`,`goods_thumb`,`shop_price` FROM `it_goods` WHERE ( id in (7,0) ) LIMIT 5   [ RunTime:0.000987s ]
+NOTIC: [8] Undefined index: user_id D:\server\apache\htdocs\itshop\App\Lib\Action\Home\HomeAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.006462s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=13 ) LIMIT 1   [ RunTime:0.001050s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013729s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000689s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000358s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001488s ]
+

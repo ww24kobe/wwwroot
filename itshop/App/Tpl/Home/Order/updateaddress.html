@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="Generator" content="YONGDA v1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Keywords" content="" />
+        <meta name="Description" content="" />
+
+        <title>爱购商城 - Powered by Wangwei</title>
+
+        <link href="__HCSS__/style.css" rel="stylesheet" type="text/css" />
+         <js href="__JS__/jquery.js" />
+          <js href="__JS__/city.min.js" />
+   		 <js href="__JS__/jquery.cityselect.js" />
+   		
+    <script>
+      $(function(){
+       $("#city_4").citySelect({
+    	prov:"江西", 
+    	
+	}); 
+      
+      });
+    
+    </script>
+    </head>
+    <body>
+      <include file="Public:head"/>
+
+        <div class="block box">
+            <div class="blank"></div>
+            <div id="ur_here">
+                当前位置: <a href="/">首页</a> <code>&gt;</code> 用户中心 
+            </div>
+        </div>
+
+        <div class="blank"></div>
+        <div class="blank"></div>
+
+        <div class="block clearfix">
+      
+            <div class="AreaR">
+                <div class="box">
+                    <div class="box_1">
+                        <div class="userCenterBox boxCenterList clearfix" style="">
+                            <h5><span>收货人信息</span></h5>
+                            <div class="blank"></div>
+                            <form action="__ACTION__" method="post" name="theForm">
+                                <table bgcolor="#dddddd" border="0" cellpadding="5" cellspacing="1" width="100%">
+                                    <tbody><tr>
+                                            <td align="right" bgcolor="#ffffff">配送区域：</td>
+                                            <td colspan="3" align="left" bgcolor="#ffffff">
+									       <div id="city_4">
+												<select name="province" class="prov">
+												<option value="<?php  echo $addressdata['province'];?>"> <?php  echo $addressdata['province'];?></option>
+												</select> 
+												<select name="city" class="city" >
+												<option value="<?php  echo $addressdata['city'];?>"><?php  echo $addressdata['city'];?></option>
+												</select>
+												<select name="district" class="dist" >
+												<option value="<?php  echo $addressdata['district'];?>"><?php  echo $addressdata['district'];?></option>
+												</select>
+											</div>
+                                                (必填) </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right" bgcolor="#ffffff">收货人姓名：</td>
+                                            <td align="left" bgcolor="#ffffff">
+                                                <input name="consignee" class="inputBg" id="consignee_0" required value="<?php  echo $addressdata['consignee'];?>" type="text" />
+                                                (必填) </td>
+                                            <td align="right" bgcolor="#ffffff">电子邮件地址：</td>
+                                            <td align="left" bgcolor="#ffffff">
+                                                <input name="email" class="inputBg" id="email_0"  required value="<?php  echo $addressdata['email'];?>" type="email" />
+                                                (必填)</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right" bgcolor="#ffffff">详细地址：</td>
+                                            <td align="left" bgcolor="#ffffff">
+                                                <input name="address" required class="inputBg" id="address_0" value="<?php  echo $addressdata['address'];?>" type="text" />
+                                                (必填)</td>
+                                            <td align="right" bgcolor="#ffffff">邮政编码：</td>
+                                            <td align="left" bgcolor="#ffffff">
+                                                <input name="zipcode" required class="inputBg" id="zipcode_0" value="<?php  echo $addressdata['zipcode'];?>" type="text" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right" bgcolor="#ffffff">电话：</td>
+                                            <td align="left" bgcolor="#ffffff">
+                                                <input name="tel" class="inputBg" id="tel_0" value="<?php  echo $addressdata['tel'];?>" type="text" />
+                                                (必填)</td>
+                                            <td align="right" bgcolor="#ffffff">手机：</td>
+                                            <td align="left" bgcolor="#ffffff">
+                                                <input name="mobile" required class="inputBg" id="mobile_0" value="<?php  echo $addressdata['mobile'];?>" type="text" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right" bgcolor="#ffffff">标志建筑：</td>
+                                            <td align="left" bgcolor="#ffffff">
+                                                <input name="sign_building" class="inputBg" id="sign_building_0" type="text" value="<?php  echo $addressdata['sign_building'];?>" /></td>
+                                            <td align="right" bgcolor="#ffffff">最佳送货时间：</td>
+                                            <td align="left" bgcolor="#ffffff">
+                                                <input name="best_time" class="inputBg" id="best_time_0" value="<?php  echo $addressdata['best_time'];?>" type="text" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id']?>" />
+                                            <td align="right" bgcolor="#ffffff">&nbsp;</td>
+                                            <td colspan="3" align="center" bgcolor="#ffffff">                    
+                                                <input name="submit" class="bnt_blue_1" value="确认修改" type="submit" />
+                                                <!-- <input name="button" class="bnt_blue" value="删除" type="button" /> -->
+                                                <input name="act" value="act_edit_address" type="hidden" />
+                                                <input name="address_id" value="3" type="hidden" />
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                            </form>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <include  file="Public:foot"/>
+    </body>
+</html>

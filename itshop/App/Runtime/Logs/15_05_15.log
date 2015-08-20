@@ -1,0 +1,165 @@
+[ 2015-05-15T16:25:44+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:25:44+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:25:44+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:26:07+08:00 ] 127.0.0.1 /index.php/admin/index/orderAdd.html
+ERR: 非法操作:orderadd
+
+[ 2015-05-15T16:26:07+08:00 ] 127.0.0.1 /index.php/admin/index/orderQuery.html
+ERR: 非法操作:orderquery
+
+[ 2015-05-15T16:28:08+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:28:08+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:28:08+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:28:09+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:28:09+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:28:09+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:28:12+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:28:12+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:28:12+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:28:15+08:00 ] 127.0.0.1 /index.php/admin/index/userMessage.html
+ERR: 非法操作:usermessage
+
+[ 2015-05-15T16:28:29+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:28:29+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:28:29+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:31:11+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:31:11+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:31:11+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:31:19+08:00 ] 127.0.0.1 /index.php/index.php/admin/index/login.html.html
+ERR: 无法加载模块:Index.php
+
+[ 2015-05-15T16:32:08+08:00 ] 127.0.0.1 /index.php/index.php/admin
+ERR: 无法加载模块:Index.php
+
+[ 2015-05-15T16:32:11+08:00 ] 127.0.0.1 /index.php/index.php/admin
+ERR: 无法加载模块:Index.php
+
+[ 2015-05-15T16:32:34+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:32:34+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:32:34+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-05-15T16:36:00+08:00 ] 127.0.0.1 /index.php/admin/Goods/goodsEdit?goods_id=%3C%3E
+ERR: 非法操作:goodsedit
+
+[ 2015-05-15T16:36:18+08:00 ] 127.0.0.1 /index.php/admin/Goods/goodsEdit?goods_id=%3C%3E
+ERR: 非法操作:goodsedit
+
+[ 2015-05-15T16:38:28+08:00 ] 127.0.0.1 /index.php/admin/attribute/ajaxGetAttrs/id/2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.005641s ]
+SQL: SELECT it_attribute.*,b.type_name FROM `it_attribute` LEFT JOIN it_goods_type b on it_attribute.type_id=b.id WHERE ( type_id=2 )  [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027216s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001107s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006518s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001823s ]
+
+[ 2015-05-15T16:38:29+08:00 ] 127.0.0.1 /index.php/admin/attribute/ajaxGetAttrs/id/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.010223s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\itshop\ThinkPHP\Lib\Core\Db.class.php 第 425 行.
+SQL: SELECT it_attribute.*,b.type_name FROM `it_attribute` LEFT JOIN it_goods_type b on it_attribute.type_id=b.id  [ RunTime:0.001595s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+NOTIC: [8] Undefined variable: k D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 12 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 19 行.
+NOTIC: [8] Undefined variable: val D:\server\apache\htdocs\itshop\App\Runtime\Cache\Admin\aa822fe642dbb703ba20758a563ef244.php 第 20 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009631s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000930s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000501s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000355s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002570s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001098s ]
+

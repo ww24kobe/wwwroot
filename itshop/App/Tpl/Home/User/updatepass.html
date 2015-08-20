@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="Generator" content="YONGDA v1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Keywords" content="YONGDA商城" />
+        <meta name="Description" content="YONGDA商城" />
+
+        <title>爱购商城 - Powered by WangweiongDa</title>
+
+        <link href="__HCSS__/style.css" rel="stylesheet" type="text/css" />
+
+    </head>
+    <body class="index_body">
+		<include file='Public:head'/>
+
+        <div class="block block1">  
+
+            <div class="block box">
+                <div class="blank"></div>
+                <div id="ur_here">
+                    当前位置: <a href="/">首页</a> <code>&gt;</code> 修改密码
+                </div>
+            </div>
+            <div class="blank"></div>
+
+
+            <!--放入view具体内容-->
+
+            <div class="block box">
+
+                <div class="usBox">
+                    <div class="usBox_2 clearfix">
+                      <!--    <div class="logtitle3"></div> -->
+                        <form id="yw0" action="__ACTION__" method="post">           
+                             <table cellpadding="5" cellspacing="3" style="text-align:left; width:100%; border:0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width:13%; text-align: right;"><label for="User_username" class="required">用户名 ：
+                                        <span class="required"></span></label>
+                                        </td>
+
+                                        <td style="width:87%;">
+                                            <input class="inputBg" disabled="true" size="25" name="username" required="required" id="User_username" type="text" value="<?php  echo $userinfo['username'];?>" />                  
+                                            
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right"><label for="User_user_email">原密码：</label></td>
+                                        <td>
+                                            <input class="inputBg"  size="25" name="password" required="required" id="User_user_email" type="password"  value="" />    
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right"><label for="User_user_email">新密码：</label></td>
+                                        <td>
+                                            <input class="inputBg"  size="25" name="newpassword" required="required" id="User_user_email" type="password"  value="" />    
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right"><label for="User_user_email">确认新密码：</label></td>
+                                        <td>
+                                            <input class="inputBg"  size="25" name="renewpassword" required="required" id="User_user_email" type="password"  value="" />    
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>&nbsp;</td>
+
+                                        <td align="left">
+                                            <input name="Submit"   type="submit"  value="确认修改"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </form>        </div>
+                </div>
+            </div>
+            <!--放入view具体内容-->
+
+        </div>
+
+        <div class="blank"></div>
+        <include file='Public:foot'/>
+
+    </body>
+</html>

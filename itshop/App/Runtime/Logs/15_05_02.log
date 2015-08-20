@@ -1,0 +1,36 @@
+[ 2015-05-02T12:43:22+08:00 ] 127.0.0.1 /index.php/admin/index/Js/global.js
+ERR: 非法操作:js
+
+[ 2015-05-02T12:43:22+08:00 ] 127.0.0.1 /index.php/admin/index/Js/transport.js
+ERR: 非法操作:js
+
+[ 2015-05-02T12:43:22+08:00 ] 127.0.0.1 /index.php/admin/index/Js/utils.js
+ERR: 非法操作:js
+
+[ 2015-05-02T14:59:04+08:00 ] 127.0.0.1 /index.php/Goods/detail/id/1
+ERR: Model:findfamily您所请求的方法不存在！
+
+[ 2015-05-02T16:22:04+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+ERR: 无法加载模块:Cart
+
+[ 2015-05-02T17:18:23+08:00 ] 127.0.0.1 /index.php/Cart/css/style.css
+ERR: 非法操作:css
+
+[ 2015-05-02T17:18:23+08:00 ] 127.0.0.1 /index.php/Cart/images/flow.htm
+ERR: 非法操作:images
+
+[ 2015-05-02T17:18:39+08:00 ] 127.0.0.1 /index.php/Cart/images/flow.htm
+ERR: 非法操作:images
+
+[ 2015-05-02T17:18:57+08:00 ] 127.0.0.1 /index.php/Cart/images/flow.htm
+ERR: 非法操作:images
+
+[ 2015-05-02T23:13:26+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+ERR: 模板不存在[./App/Tpl/Home/Cart/addcart.html]
+
+[ 2015-05-02T23:33:19+08:00 ] 127.0.0.1 /index.php/Cart/showCart
+ERR: Model:assign您所请求的方法不存在！
+
+[ 2015-05-02T23:57:38+08:00 ] 127.0.0.1 /index.php/cart/delItem/id/2
+ERR: 非法操作:delitem
+
