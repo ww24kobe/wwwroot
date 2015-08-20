@@ -1,2 +1,2 @@
 # Mydedecms
-我的dedecms
+ wwwroot --网站根目录 
