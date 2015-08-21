@@ -1,0 +1,15 @@
+{dede:field name='keywords'}小律师有大作为,第四季{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《小律师有大作为 第四季》高清下载,《小律师有大作为 第四季》全集高清快播_百度影音在线观看下载,包含《小律师有大作为 第四季》3GP MP4下载,下载《小律师{/dede:field}
+{dede:field name='title'}小律师有大作为 第四季{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}Jason EnslerAndrew Flemingteve RobinElizabeth Allen{/dede:field}
+{dede:field name='niandai'}2014 14:15{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}《小律师有大作为》由马克-保罗·戈塞拉、布瑞金·梅耶主演，2011年6月2日首播。两位男主角被很多人看做街头混混，事实上他们是一对律师搭档。无论是车祸现场、警方逮捕嫌疑犯的现场还是其他事故现场，只要是用得上法律服务的地方，他们总会拿着自己的名片想方设法挤进去。一旦到了法庭之上，他们极尽恶搞之能事，用自己的方式伸张正义。《小律师有大作为 第四季》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}马克-保罗·戈塞拉,布瑞金·梅耶,Kumail Nanjiani,马尔科姆·麦克道威尔,里德·戴蒙德,Dana Davis,嘉丝莉·毕薇斯{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-08/53f6cd352ff58.jpg{/dede:field}

@@ -1,0 +1,15 @@
+{dede:field name='keywords'}逍遥医生,逍遥医生下载{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《逍遥医生》高清下载,《逍遥医生》全集高清快播_百度影音在线观看下载,包含《逍遥医生》3GP MP4下载,下载《逍遥医生》高清电视剧就上7060.COM{/dede:field}
+{dede:field name='title'}逍遥医生{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}乔纳森·莱文{/dede:field}
+{dede:field name='niandai'}2014 11:25{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}William Rush医生（Tom Ellis）是一个出诊医生，但是他不属于任何一家医院。他对病人极为挑剔，不达到他的要求他绝不上门。他要求病人必须支付数目不菲的现金酬劳，而且他看完病就举办花天酒地的聚会。他声称自己对这些「不干净」的客户从不做出评价，但他无法对那些丑恶的现象做到百分之百「免疫」。他无意改变自己的生活方式——直到一个老情人突然出现，引起他对良知和道德感的思考。《逍遥医生》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}汤姆·艾利斯,莎拉·哈贝尔,奥黛塔·安纳布尔,Cindy Busby,布莱恩·马克金森,Angell Conwell,基诺·安东尼·佩西,Teach Grant,罗兰多·莫利纳,Emily Bruhn,Arlina Rodriguez,Cesar Ventura,Rebecca Olson{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-08/53e1e0166c7d7.jpg{/dede:field}

@@ -1,0 +1,15 @@
+{dede:field name='keywords'}生活大爆炸 第八季,生活大{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《生活大爆炸 第八季》高清下载,《生活大爆炸 第八季》全集高清快播_百度影音在线观看下载,包含《生活大爆炸 第八季》3GP MP4下载,下载《生活大爆炸 第八季》{/dede:field}
+{dede:field name='title'}生活大爆炸 第八季{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}马克·森卓斯基{/dede:field}
+{dede:field name='niandai'}2014 13:11{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}CBS本年年除了《生活大爆炸》(The Big Bang Theory)外，其余的喜剧表现由还好至差劲（除了《老爸老妈的浪漫史》( How I Met Your Mother)），故此高层决定把《生活大爆炸》牢牢抓在手里，一口气续订了3季，所以《生活大爆炸》将至少播到2016-17年度季了。&nbsp;《生活大爆炸 第八季》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}吉姆·帕森斯,约翰尼·盖尔克奇,凯莉·库柯,西蒙·赫尔伯格,昆瑙·内亚,马伊姆·拜力克,梅丽莎·劳奇{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-09/5425091b7ddaa.jpg{/dede:field}

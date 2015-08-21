@@ -1,0 +1,15 @@
+{dede:field name='keywords'}矢在弦上 第三季,矢在弦上{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《矢在弦上 第三季》高清下载,《矢在弦上 第三季》全集高清快播_百度影音在线观看下载,包含《矢在弦上 第三季》3GP MP4下载,下载《矢在弦上 第三季》高清电视{/dede:field}
+{dede:field name='title'}矢在弦上 第三季{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}JimO'Hanlon{/dede:field}
+{dede:field name='niandai'}2014 14:20{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}由John Hannah和Suranne Jones出演的喜剧片《A Touch of Cloth》将恶搞过去十年间英国出品的最精彩和最烂的罪案剧。该剧剧本基于Boris Starling的一个故事改编，剧本创作团队包括Charlie Brooker (代表作：Dead Set) 和 Daniel Maier (代表作：Harry Hill’s TV Burp), 以及 Ben Caudell, Peter Holmes, Jason Hazeley 和 Joel www. chaoji365.com Morris 总督察 Jack Cloth 由John Hannah饰演。这位总督察是一个特立独行的人，酗酒，孤僻，自从他妻子离奇死亡之后就一心沉浸在工作中。心灵受创的Cloth与Anne Oldman搭档办案。Anne Oldman是一个勇敢，不说废话的探员，由Suranne Jones饰演。&nbsp;《矢在弦上 第三季》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}凯伦·吉兰{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-08/53faf90821f8d.jpg{/dede:field}

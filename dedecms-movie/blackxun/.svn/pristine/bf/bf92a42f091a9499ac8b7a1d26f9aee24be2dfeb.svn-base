@@ -1,0 +1,1 @@
+<li><a href="[field:global.cfg_plus_dir/]/sou.php?daoyan=[field:daoyan/]" >[field:daoyan/]</a></li>

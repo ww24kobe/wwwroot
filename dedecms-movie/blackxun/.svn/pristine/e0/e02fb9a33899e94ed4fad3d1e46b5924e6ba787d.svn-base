@@ -1,0 +1,15 @@
+{dede:field name='keywords'}海军罪案调查处,第十二季{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《海军罪案调查处 第十二季》高清下载,《海军罪案调查处 第十二季》全集高清快播_百度影音在线观看下载,包含《海军罪案调查处 第十二季》3GP MP4下载,下载《{/dede:field}
+{dede:field name='title'}海军罪案调查处  第十二季{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}TonyWharmby{/dede:field}
+{dede:field name='niandai'}2014 10:23{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}CBS一口气续订18部剧集，其中包括《海军犯罪调查处》。《海军罪案调查处  第十二季》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}马克·哈蒙,迈克尔·韦瑟利,蔻特·德·帕布罗,宝蕾·佩雷特,尚恩·穆雷,洛奇·卡罗尔,大卫·麦考姆,布莱恩·迪岑{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-10/54449f3bd8cb1.jpg{/dede:field}

@@ -1,0 +1,15 @@
+{dede:field name='keywords'}实习医生格蕾,第十一季{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《实习医生格蕾 第十一季》高清下载,《实习医生格蕾 第十一季》全集高清快播_百度影音在线观看下载,包含《实习医生格蕾 第十一季》3GP MP4下载,下载《实习医{/dede:field}
+{dede:field name='title'}实习医生格蕾 第十一季{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}ShondaRhimes{/dede:field}
+{dede:field name='niandai'}2014 13:06{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}Cristina离去之后，Maggie Pierce医生（Kelly McCreary）来到了「Grey-Sloan纪念医院」。与此同时，Derek似乎已经下定决心要到华盛顿去工作。Meredith试图在家中和医院里同时表现得「一如常态」，但生活中的诸多变化还是让她感觉难以承受。Callie和Arizona对代孕一事达成共识。Amelia偶然听到一个大秘密。Bailey意识到自己必须为Alex争取Cristina留下的医院董事会席位。一场可怕的事故导致两名青少年陷入糟糕的情形。《实习医生格蕾 第十一季》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}艾伦·旁派,帕特里克·德姆西,贾斯汀·钱伯斯,钱德拉·威尔森,小詹姆斯·皮肯斯,莎拉·拉米尔兹,Jerrika Hinton,卡米拉·卢丁顿{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-09/5428cb1b6935a.jpg{/dede:field}

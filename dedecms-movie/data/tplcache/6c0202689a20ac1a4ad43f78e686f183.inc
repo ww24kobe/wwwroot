@@ -1,0 +1,15 @@
+{dede:field name='keywords'}丑闻 第四季,丑闻 第四季{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《丑闻 第四季》高清下载,《丑闻 第四季》全集高清快播_百度影音在线观看下载,包含《丑闻 第四季》3GP MP4下载,下载《丑闻 第四季》高清电视剧就上7060.COM{/dede:field}
+{dede:field name='title'}丑闻 第四季{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}珊达·莱梅斯{/dede:field}
+{dede:field name='niandai'}2014 13:02{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}在第三季结尾，Olivia和Jake携手乘坐私人飞机离开了华盛顿，从此不问世事。一转眼两个月过去，他们熟悉的一切都已经改变。Fitz成功连任总统，将继续在白宫里待四年。Fitz和Cyrus决心尽最大努力改变政治方向，扫除一切黑暗，给美国带来「正能量」。与此同时，Mellie仍然深深沉浸在失去儿子的悲痛中。没有Olivia作为领袖，角斗士团队受到了极大的影响。《丑闻 第四季》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}凯丽·华盛顿,哥伦布·绍特{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-09/5428c97a3d12b.jpg{/dede:field}

@@ -1,0 +1,15 @@
+{dede:field name='keywords'}哈哈大校,哈哈大校下载{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《哈哈大校》高清下载,《哈哈大校》全集高清快播_百度影音在线观看下载,包含《哈哈大校》3GP MP4下载,下载《哈哈大校》高清电视剧就上7060.COM{/dede:field}
+{dede:field name='title'}哈哈大校{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}MattLipsey{/dede:field}
+{dede:field name='niandai'}2014 10:33{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}The story is set in a high school senior colonel, "ha ha" focusing is a group of eccentric art teacher, wishful thinking of love, as well as their daily teaching work of many funny plot... Chemistry teacher Chach (David Walliams) madly in love with the new French teacher wave Easton (Catherine Tate), and physical education teacher Genn (Philip Glenister) is a dandy, he obviously will not stand idly by.&nbsp;《哈哈大校》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}David Walliams,Catherine Tate,Steve Speirs,James Greene,Frances de la Tour{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-08/5402c05c3f89f.jpg{/dede:field}

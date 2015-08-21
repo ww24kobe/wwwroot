@@ -1,0 +1,15 @@
+{dede:field name='keywords'}逍遥法外,逍遥法外下载{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《逍遥法外》高清下载,《逍遥法外》全集高清快播_百度影音在线观看下载,包含《逍遥法外》3GP MP4下载,下载《逍遥法外》高清电视剧就上7060.COM{/dede:field}
+{dede:field name='title'}逍遥法外{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}{/dede:field}
+{dede:field name='niandai'}2014 13:14{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}是一部带有强烈悬疑色彩的剧集，被称作「律政惊悚剧」。该剧由《实习医生格蕾》（Grey’s Anatomy）和《丑闻》（Scandal）的制片人Shonda Rhimes及其制片公司Shondaland策划，这是该公司今年卖出的第四个新项目（同时也是该公司第二部以黑人女性为头号主角的剧集）。故事描述一群满怀抱负的法学院学生和神秘的犯罪辩护学教授Annalise DeWitt（Viola Davis）卷入一场谋杀阴谋，导致他们所有人的生活被彻底改变。DeWitt不仅教学，还是一位著名的刑事案件诉讼律师。她聪明、热情、迷人、有创意，在法庭上和课堂里均冷酷无情。她很善于操纵别人，特别是她的学生。她亲自挑选了几名最优秀的学生到自己的事务所打工。她与一位心理学教授结了婚，但却保持着一段绝不能让第三人知道的婚外情。《逍遥法外》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}维奥拉·戴维斯,Matt McGorry,凯蒂·芬德莱,卡拉·苏扎{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-10/54322c9eec178.jpg{/dede:field}

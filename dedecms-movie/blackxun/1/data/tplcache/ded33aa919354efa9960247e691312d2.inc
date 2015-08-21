@@ -1,0 +1,15 @@
+{dede:field name='keywords'}罪案第六感 第三季,罪案第{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《罪案第六感 第三季》高清下载,《罪案第六感 第三季》全集高清快播_百度影音在线观看下载,包含《罪案第六感 第三季》3GP MP4下载,下载《罪案第六感 第三季》{/dede:field}
+{dede:field name='title'}罪案第六感 第三季{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}格雷格·毕曼{/dede:field}
+{dede:field name='niandai'}2014 13:26{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}该剧描述神经精神病学教授丹尼尔·皮尔斯（艾瑞克·麦柯马克饰演）博士帮助联邦调查局破获悬疑案件的故事。丹尼尔是人类行为学以及神经科学方面的权威，但旁人所不知的是，他其实是个精神分裂症的患者。为了防止诱发自己的症状，他除了教课外尽量避免与人交际，过着孤隐且程式化的生活。然而他过去最得意的学生——年轻貌美的FBI特工凯特·莫莱蒂（瑞切尔·蕾·库克饰演）的归来打破了这种平静。经凯特推荐，丹尼尔成为了FBI的专家顾问，各种疑难案件为他带来了久违的挑战，精神病所引起的幻觉也使得他可以抓捕到了许多无法用常规手段提供的线索，但同时也使得他久未复发的病情开始变得不稳定。《罪案第六感 第三季》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}艾瑞克·麦柯马克,瑞切尔·蕾·库克,阿尔杰·史密斯,凯利·罗万{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-06/53a578f59730d.jpg{/dede:field}

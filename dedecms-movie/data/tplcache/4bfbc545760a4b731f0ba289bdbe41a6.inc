@@ -1,0 +1,15 @@
+{dede:field name='keywords'}暴君,暴君下载,暴君快播{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《暴君》高清下载,《暴君》全集高清快播_百度影音在线观看下载,包含《暴君》3GP MP4下载,下载《暴君》高清电视剧就上7060.COM{/dede:field}
+{dede:field name='title'}暴君{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}大卫·叶茨{/dede:field}
+{dede:field name='niandai'}2014 14:15{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}《<b>暴君</b>》是一个颇像反恐剧《国土安全》与间谍剧《美国人》结合的新剧，讲述了一个表面本分的美国家庭，卷入了一场中东国家混乱风波的故事。该剧的幕后主创恰恰是打造《国土安全》的霍华德·高登、吉迪昂·拉夫以及《迷失》的克雷格·奈特。《暴君》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}詹妮佛·芬尼甘,莫兰·阿提艾斯,Ashraf Barhom,Anne Winters,萨米·谢伊克,Noah Silver,麦赫迪·德比,Sophia Taylor Ali,Cameron Gharaee,Sibylla Deen,Amine El Bnouhi{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-06/53ae46c8c1317.jpg{/dede:field}

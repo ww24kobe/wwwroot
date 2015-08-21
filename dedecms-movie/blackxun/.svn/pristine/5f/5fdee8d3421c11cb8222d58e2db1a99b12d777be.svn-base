@@ -1,0 +1,25 @@
+<?php
+$z[0]=Array("noteinfo","",0,167);
+$z[0][4]['notename']="我的电影采集";
+$z[0][4]['channelid']="17";
+$z[0][4]['macthtype']="string";
+$z[0][4]['refurl']="http://";
+$z[0][4]['sourcelang']="utf-8";
+$z[0][4]['cosort']="asc";
+$z[0][4]['isref']="no";
+$z[0][4]['exptime']="10";
+$z[0][4]['usemore']="0";
+$z[1]=Array("listrule","\r\n    {dede:addurls}{/dede:addurls}\r\n    {dede:batchrule}{/dede:batchrule}\r\n    {dede:regxrule}{/dede:regxrule}\r\n    {dede:areastart}<div id=\"haibaoBox\">{/dede:areastart}\r\n    {dede:areaend}<div class=\"pager\">{/dede:areaend}\r\n",171,619);
+$z[1][4]['sourcetype']="batch";
+$z[1][4]['rssurl']="http://";
+$z[1][4]['regxurl']="http://www.7060.la/list/23_0_46_0_0_0_new_(*).html";
+$z[1][4]['startid']="6";
+$z[1][4]['endid']="7";
+$z[1][4]['addv']="1";
+$z[1][4]['urlrule']="area";
+$z[1][4]['musthas']="";
+$z[1][4]['nothas']="";
+$z[1][4]['listpic']="1";
+$z[1][4]['usemore']="0";
+
+?>

@@ -1,0 +1,15 @@
+{dede:field name='keywords'}背包客,背包客下载,背包客{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《背包客》高清下载,《背包客》全集高清快播_百度影音在线观看下载,包含《背包客》3GP MP4下载,下载《背包客》高清电视剧就上7060.COM{/dede:field}
+{dede:field name='title'}背包客{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}JoshLevy{/dede:field}
+{dede:field name='niandai'}2014 15:32{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}CW准备在其数字平台CW Seed上播出10集夏季新剧《<b>背包客</b>》（Backpackers）。故事描述好朋友Ryan（Noah Reid）和Brandon（Dillon Casey）穿越欧洲寻找Ryan失踪的未婚妻，同时「追寻人生的正确方向」。CW Seed此前已经发布过一部分视频，这些视频在经过重新整理后将当做新剧的前四集，后六集会择期进行拍摄。具体播出时间待定。《背包客》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}诺亚.雷德,迪隆·凯西,Mishael Morgan,Nils Hognestad,Aurélie Montea,梅根·赫弗恩{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-07/53ca14f3d73d7.jpg{/dede:field}

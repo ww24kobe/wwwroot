@@ -1,0 +1,15 @@
+{dede:field name='keywords'}曼哈顿计划,曼哈顿计划下{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《曼哈顿计划》高清下载,《曼哈顿计划》全集高清快播_百度影音在线观看下载,包含《曼哈顿计划》3GP MP4下载,下载《曼哈顿计划》高清电视剧就上7060.COM{/dede:field}
+{dede:field name='title'}曼哈顿计划{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}托马斯·施拉梅{/dede:field}
+{dede:field name='niandai'}2014 10:39{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}故事发生在美国新墨西哥州北部城市洛斯阿拉莫斯，这座只有1万人口的小城市因为拥有世界上第一个原子能研究中心而闻名——20世纪40年代，美国在这里成功研制出世界上第一颗原子弹和氢弹，本剧的故事主要描述那段历史。一群有人格缺陷的天才科学家夜以继日地在这里进行超级毁灭武器的研究，他们在承受工作压力的同时还要承受来自家庭的压力。对他们来说，这是一个充满了秘密和谎言的世界，他们生活中的方方面面都是「虚假」的。本剧的标题「曼哈顿」指美国陆军部在1942年6月开始实施的一项研制原子弹的秘密计划（代号<b>曼哈顿计划</b>），与纽约曼哈顿无关。John Benjamin Hickey扮演主人公Frank Winter，一个才华横溢但是有自毁倾向的物理教授，他奉命主导曼哈顿计划的研发。这项绝密任务不仅将危及他的家庭，还将伤及他的心智。Ashley Zukerman扮演Charlie Abrams，一个聪明绝顶的年轻人，自认为是一个「整天和数字打交道的人」。他的智商高达180，而且很有幽默感。Daniel Stern扮演心理顾问Glen Babbit，负责为参与曼哈顿计划的年轻物理学家们提供心理辅导。他利用自己的智慧和机智小心穿梭于洛斯阿拉莫斯的政治雷区。Rachel Brosnahan扮演来自波士顿的女孩Abby Abrams，她一时冲动同意和丈夫Charlie Abrams来到一个几乎「前不着村后不着店」的地方，但很快意识到这里的生活非常艰难。Harry Lloyd扮演野心勃勃的牛津大学毕业生、物理学家Paul Crosley。当他意识到自己将建造世界上第一颗原子弹时，他对工作的忠诚开始动摇。Katja Herbers扮演Frank Winter教授实验团队的成员Helen Price，是极少数参与曼哈顿计划的女性科学家之一。《曼哈顿计划》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}John Benjamin Hickey,Katja Herbers,Rachel Brosnahan,Harry Lloyd,Ashley Zukerman{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-08/53e1d7762270b.jpg{/dede:field}

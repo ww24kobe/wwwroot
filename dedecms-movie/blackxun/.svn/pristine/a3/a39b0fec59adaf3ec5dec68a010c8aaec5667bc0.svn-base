@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title> 
+<meta name="Keywords" content="3GP手机电影,3GP电影下载,MP4电影下载,3GP手机电影免费下" />
+<meta name="Description" content="3GP手机电影网新版上线，从网站功能、界面以及下载流程上进行了全方面的优化，更适合新老3GP.CN用户快捷的免费下载3GP/MP4高清手机电影以及3GP格式转换器。" />
+<link href="{dede:global.cfg_templets_skin/}/css/style.css" type="text/css"  rel="stylesheet"/>
+<link href="{dede:global.cfg_templets_skin/}/css/index.css" type="text/css"  rel="stylesheet"/>
+<script language="javascript" src="{dede:global.cfg_templets_skin/}/js/global.js"></script>
+<SCRIPT src="{dede:global.cfg_templets_skin/}/js/jquery-1.4.2.min.js" type='text/javascript'></SCRIPT>
+<SCRIPT src="{dede:global.cfg_templets_skin/}/js/lanrentuku.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+{dede:include file="header.html"/}
+<div id="main">
+	<div class="module">
+		<div class="movie">
+			<div class="movie_l">
+				<div class="movie_l_top">
+					<h3><img alt="3GP MP4手机电影" src="{dede:global.cfg_templets_skin/}/images/dy_title.gif"/></h3>
+					<div class="movie_l_top_fl">
+					{dede:channel typeid='1' type="son" row="10"}
+						<a href="[field:typelink/]" target="_blank">[field:typename/]</a> |
+					{/dede:channel}	
+					</div>
+				</div>
+				<div class="movie_l_u">
+					<div class="movie_l_t">
+					<div class="movie_l_u_sy">
+						<div class="jiansuo">
+							<span>地区</span>
+							<ul>
+							{dede:sql  sql="select  distinct  diqu from  dede_addonmovie"}
+								<li><a href="[field:global.cfg_plus_dir/]/sou.php?diqu=[field:diqu/]" >[field:diqu/]</a></li>
+							{/dede:sql}
+							</ul>
+						</div>
+						<div class="jiansuo">
+							<span>年代</span>
+							<ul>
+								{dede:sql  sql="select  distinct  niandai from  dede_addonmovie"}
+								<li><a href="[field:global.cfg_plus_dir/]/sou.php?niandai=[field:niandai/]" >[field:niandai/]</a></li>
+							{/dede:sql}
+							</ul>
+						</div>
+						<div class="jiansuo">
+							<span>导演</span>
+							<ul>
+								{dede:sql  sql="select  distinct  daoyan from  dede_addonmovie limit 0,5"}
+								<li><a href="[field:global.cfg_plus_dir/]/sou.php?daoyan=[field:daoyan/]" >[field:daoyan/]</a></li>
+							{/dede:sql}
+							</ul>
+						</div>
+						<div class="jiansuo">
+							<span>主演</span>
+							<ul>
+								<li><a href="#" target="_blank">周星驰</a></li>
+								<li><a href="#" target="_blank">成龙</a></li>
+								<li><a href="#" target="_blank">刘德华</a></li>
+								<li><a href="#" target="_blank">甄子丹</a></li>
+								<li><a href="#" target="_blank">李连杰</a></li>
+								<li><a href="#" target="_blank">吴京</a></li>
+								<li><a href="#" target="_blank">周润发</a></li>
+								<li><a href="#" target="_blank">张学友</a></li>
+								<li><a href="#" target="_blank">谢霆锋</a></li>
+								<li><a href="#" target="_blank">刘亦菲</a></li>
+								<li><a href="#" target="_blank">元彪</a></li>
+								<li><a href="#" target="_blank">梁朝伟</a></li>
+								<li><a href="#" target="_blank">赵薇</a></li>
+								<li><a href="#" target="_blank">李冰冰</a></li>
+								<li><a href="#" target="_blank">章子怡</a></li>
+							</ul>
+						</div>
+						</div>
+						<div class="movie_l_u_zt">
+							<li>专题<span>|</span><a href="#" target="_blank">神马世界,他们吻上瘾了</a></li>
+							<li>专题<span>|</span><a href="#" target="_blank">狄仁杰之通天帝国</a></li>
+							<li>专题<span>|</span><a href="#" target="_blank">战争大片一网打尽</a></li>
+							<li>专题<span>|</span><a href="#" target="_blank">谁是明星片酬王中王？</a></li>
+						</div>
+					</div>
+					{dede:arclist channelid="17" addfields="daoyan,zhuyan,niandai,juqing"   row='1'}
+					<div class="movie_tui">
+						<div class="movie_tui_pic"><a href="[field:arcurl/]" target="_blank"><img alt="山楂树之恋" src="[field:litpic/]" /></a></div>
+						<h4><a href="[field:arcurl/]" target="_blank">推荐电影：《[field:title/]》</a></h4>
+						<span>导演：<a href="#" target="_blank">[field:daoyan/]</a>主演：<a href="#" target="_blank">[field:zhuyan/]</a>年代：<a href="#" target="_blank">[field:niandai/]</a></span>
+						<p>[field:juqing function=jiequ(@me)/]……</p>
+					</div>
+					{/dede:arclist}
+					<div class="movie_new">最新更新手机电影<span><a href="#" target="_blank">更多>></a></span></div>
+					<div class="movie_re">
+							<ul>
+							{dede:arclist  channelid="17" addfields="pfz,yuuan" row='4'}
+								<li class="c[field:global.autoindex/]"><a href="[field:arcurl/]" target="_blank"><img  src="[field:litpic/]" alt="性与早餐 3GP MP4高清下载" /></a><p>[field:yuuan/]</p><b><a href="www.a67.com/movie/8021" target="_blank">[field:title/]</a>[field:pfz function="getStar(@me)"/]<em>[field:pfz/]分</em></b></li> 
+                     		{/dede:arclist}	 
+							</ul>
+					</div>
+					<div class="movie_flt">
+					
+						<ul>
+						{dede:channelartlist row='4' typeid='1'}
+						<li>{dede:field name='typename'/}<span>|</span>
+						{dede:arclist row='4'}
+						<a href="[field:arcurl/]" target="_blank">[field:title/]</a>
+						{/dede:arclist}
+						</li>
+						{/dede:channelartlist}
+						</ul>
+						
+						
+						<ul>
+						{dede:channelartlist row='4,4' typeid='1'}
+						<li>{dede:field name='typename'/}<span>|</span>
+						{dede:arclist row='4'}
+						<a href="[field:arcurl/]" target="_blank">[field:title/]</a>
+						{/dede:arclist}
+						</li>
+						{/dede:channelartlist}
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="movie_right">
+				<div class="movie_r_ph">
+					<div class="movie_r_ph_top" id="tabs2">
+						<ul id="menu2">
+							<li onclick="setTab(2,0)" class="hover">电影下载榜</li>
+  							<li onclick="setTab(2,1)">电影评分榜 </li>
+ 						</ul>
+					</div>
+					<div id="main2">
+						<div class="movie_r_ph_u">
+   							<ul class="block">
+								<li class="hover"><span>1</span><a href="/movie/6263" title="河东狮吼3GP MP4下载" target="_blank">河东狮吼</a></li>
+								<li class="hover"><span>2</span><a href="/movie/7036" title="金瓶双艳3GP MP4下载" target="_blank">金瓶双艳</a></li>
+								<li class="hover"><span>3</span><a href="/movie/7566" title="在床上3GP MP4下载" target="_blank">在床上</a></li>
+								<li><span>4</span><a href="/movie/8100" title="恭喜发财3GP MP4下载" target="_blank">恭喜发财</a></li>
+								<li><span>5</span><a href="/movie/8098" title="床上的故事3GP MP4下载" target="_blank">床上的故事</a></li>
+								<li><span>6</span><a href="/movie/8021" title="性与早餐3GP MP4下载" target="_blank">性与早餐</a></li>
+								<li><span>7</span><a href="/movie/8093" title="密室之不可告人3GP MP4下载" target="_blank">密室之不可告人</a></li>
+								<li><span>8</span><a href="/movie/7583" title="女教师日记3GP MP4下载" target="_blank">女教师日记</a></li>
+								<li><span>9</span><a href="/movie/7676" title="子曰：食色性也3GP MP4下载" target="_blank">子曰：食色性也</a></li>
+								<li class="none"><span>10</span><a href="/movie/7799" title="失踪少女44 3GP MP4下载" target="_blank">失踪少女44</a></li>
+							</ul>
+							<ul>
+							{dede:arclist channelid="17" addfields="pfz" row="10" orderby='pfz'}
+								<li 
+								[field:global.autoindex runphp="yes"]
+									if(@me<=3){ @me=' class="hover"';}		
+								[/field:global.autoindex]
+								><span>[field:global.autoindex/]</span><a href="[field:arcurl/]" title="河东狮吼3GP MP4下载" target="_blank">[field:title/]</a><em>[field:pfz/]分</em></li>
+							{/dede:arclist}	
+							</ul>
+						</div>	
+ 					</div>
+				</div>
+				<div class="i_1"><a href="#" target="_blank"><img alt="龙凤店" src="{dede:global.cfg_templets_skin/}/images/ad/i_1.gif" border="0" /></a></div>
+				<div class="i_1"><a href="#" target="_blank"><img alt="叶问2" src="{dede:global.cfg_templets_skin/}/images/ad/i_2.gif" border="0" /></a></div>
+				<div class="i_1"><a href="#" target="_blank"><img alt="无极" src="{dede:global.cfg_templets_skin/}/images/ad/i_3.gif" border="0" /></a></div>
+			</div>
+		</div>
+	</div>
+{dede:include  file="footer.html"/}
+</body>
+</html>

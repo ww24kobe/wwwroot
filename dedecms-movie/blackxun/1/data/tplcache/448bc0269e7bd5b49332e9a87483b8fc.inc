@@ -1,0 +1,15 @@
+{dede:field name='keywords'}大西洋帝国 第五季,大西洋{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《大西洋帝国 第五季》高清下载,《大西洋帝国 第五季》全集高清快播_百度影音在线观看下载,包含《大西洋帝国 第五季》3GP MP4下载,下载《大西洋帝国 第五季》{/dede:field}
+{dede:field name='title'}大西洋帝国 第五季{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}蒂姆·范·帕腾{/dede:field}
+{dede:field name='niandai'}2014 12:03{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}HBO确认《大西洋帝国》（Boardwalk Empire）第五季将是该剧的最后一季，HBO的项目主管称该剧必将有一个「令人兴奋的」结局。《大西洋帝国 第五季》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}史蒂夫·布西密{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-09/54191c1ebaa2c.jpg{/dede:field}

@@ -1,0 +1,15 @@
+{dede:field name='keywords'}僵尸国度 第一季,僵尸国度{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《僵尸国度 第一季》高清下载,《僵尸国度 第一季》全集高清快播_百度影音在线观看下载,包含《僵尸国度 第一季》3GP MP4下载,下载《僵尸国度 第一季》高清电视{/dede:field}
+{dede:field name='title'}僵尸国度 第一季{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}{/dede:field}
+{dede:field name='niandai'}2014 11:20{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}13集末日题材剧集《僵尸国度》（Z Nation）由《鲨从天降》（Sharknado）的制片公司及《小镇疑云》（Eureka）的制片人Karl Schaefer打造，将延续《鲨从天降》的恶趣味模式。故事描述僵尸病毒已经侵袭美国三年时间，这个国家已经彻底成为僵尸的天下。一个由凡人英雄组成的团队必须护送僵尸危机中唯一一名幸存者从纽约前往加州——那里保留着美国唯一能正常运转的病毒实验室，如果能得到这名幸存者的血样，说不定他们能研制出抗病毒疫苗。虽然这名幸存者携带的抗体是人类生存下去的最后希望，但他却隐藏了一个足以毁灭一切的黑暗秘密。无论如何，这个庶民团队还是像「魔戒远征军」一样从纽约启程了，在抵达3000英里外的目的地之前，他们必须横跨遍布僵尸的美洲大陆。在这个后末日时代，他们要面对的危险还远不止吃人的僵尸这么简单。该剧将在今年秋季播出。《僵尸国度 第一季》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-09/5416a8d980c41.jpg{/dede:field}

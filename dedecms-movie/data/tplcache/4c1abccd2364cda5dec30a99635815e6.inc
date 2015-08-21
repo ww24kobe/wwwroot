@@ -1,0 +1,15 @@
+{dede:field name='keywords'}入侵者,入侵者下载,入侵者{/dede:field}
+{dede:field name='description'}7060手机电视剧为您提供《入侵者》高清下载,《入侵者》全集高清快播_百度影音在线观看下载,包含《入侵者》3GP MP4下载,下载《入侵者》高清电视剧就上7060.COM{/dede:field}
+{dede:field name='title'}入侵者{/dede:field}
+{dede:field name='writer'}{/dede:field}
+{dede:field name='source'}{/dede:field}
+{dede:field name='daoyan'}GlenMorgan{/dede:field}
+{dede:field name='niandai'}2014 14:02{/dede:field}
+{dede:field name='diqu'}欧美{/dede:field}
+{dede:field name='yuuan'}英语{/dede:field}
+{dede:field name='pfz'}0{/dede:field}
+{dede:field name='pfrs'}0{/dede:field}
+{dede:field name='juqing'}BBC确认科幻剧《<b>入侵者</b>》（Intruders）将在8月23日播出。该剧根据2007年出版的同名小说改编，由来自《X档案》的一名编剧负责创作，与“万能钥匙”架构类似。故事描述一个秘密社团找到了永生的秘密——他们可以将自己的灵魂跳到别人的躯体里，利用别人的躯体充当「庇护所」。《入侵者》电视剧全集下载百度影音在线观看由7060手机电影收集整理。{/dede:field}
+{dede:field name='pubdate'}{/dede:field}
+{dede:field name='zhuyan'}约翰·西姆,米拉·索维诺,詹姆斯·弗莱恩,Tory Kittles,Karin Konoval,Millie Bobby Brown{/dede:field}
+{dede:field name='litpic'}http://p.tao30.com/Upload-s/video/2014-09/5404273af2c53.jpg{/dede:field}

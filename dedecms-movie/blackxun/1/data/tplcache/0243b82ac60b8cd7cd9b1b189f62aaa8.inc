@@ -1,0 +1,1 @@
+<a href="{dede:global.cfg_plus_dir/}/sou.php?niandai=[field:niandai/]" >[field:niandai/]</a>
